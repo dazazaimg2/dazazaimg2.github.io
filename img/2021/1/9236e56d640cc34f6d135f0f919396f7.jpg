@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Global Zero | A world without nuclear weapons</title>
+
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.globalzero.org/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.globalzero.org/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.globalzero.org/favicon-16x16.png">
+<link rel="manifest" href="https://www.globalzero.org/site.webmanifest">
+<meta name="msapplication-TileColor" content="#449ad5">
+<meta name="theme-color" content="#000000">
+<!-- favicons -->
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="description" content="We&#8217;re working everyday to build a future free of nuclear weapons &#8212; for this generation and all generations to come. Join us." />
+<meta property="og:image" content="https://www.globalzero.org/wp-content/uploads/2018/09/cropped-earth-2880x2560-above-space-hd-6408-1.jpg" />
+<meta property="og:image:width" content="1400" />
+<meta property="og:image:height" content="735" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Global Zero | A world without nuclear weapons" />
+<meta property="og:description" content="We&#8217;re working everyday to build a future free of nuclear weapons &#8212; for this generation and all generations to come. Join us." />
+<meta property="og:url" content="https://www.globalzero.org/" />
+<meta property="og:site_name" content="Global Zero" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Global Zero | A world without nuclear weapons" />
+<meta name="twitter:description" content="We&#8217;re working everyday to build a future free of nuclear weapons &#8212; for this generation and all generations to come. Join us." />
+<meta name="twitter:image" content="https://www.globalzero.org/wp-content/uploads/2018/09/cropped-earth-2880x2560-above-space-hd-6408-1.jpg" />
+<meta name="twitter:image:width" content="1400" />
+<meta name="twitter:image:height" content="735" />
+<link rel="canonical" href="https://www.globalzero.org/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://www.globalzero.org/","name":"Global Zero","potentialAction":{"@type":"SearchAction","target":"https://www.globalzero.org/search/{search_term_string}/","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://www.globalzero.org/","name":"Global Zero"}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 10.84ms meta | 5.73ms boot -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.globalzero.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='gz-styles-css'  href='https://www.globalzero.org/wp-content/themes/globalzero-theme/css/styles.min.css?ver=1595957134' type='text/css' media='all' />
+<link rel='stylesheet' id='gz-additional-styles-css'  href='https://www.globalzero.org/wp-content/themes/globalzero-theme/css/additional-styles.css?ver=1595957134' type='text/css' media='all' />
+<link rel='stylesheet' id='gz-google-webfonts-css'  href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Spectral:300,300i,400,400i,700,700i&#038;subset=cyrillic,latin-ext,vietnamese' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.globalzero.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.11.6' id='gtm4wp-form-move-tracker-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/themes/globalzero-theme/js/vendor/scrollreveal.min.js?ver=4.0.0' id='gz-scrollreveal-js'></script>
+<link rel="https://api.w.org/" href="https://www.globalzero.org/wp-json/" /><link rel="alternate" type="application/json" href="https://www.globalzero.org/wp-json/wp/v2/pages/230" /><link rel="alternate" type="application/json+oembed" href="https://www.globalzero.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.globalzero.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.globalzero.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.globalzero.org%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"provoc_dylan"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P82MQGR');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+</head>
+<body class="home page-template-default page page-id-230">
+
+<div id="body-wrap" class="body-wrap">
+
+<header class="header" id="header">
+  <div class="wrapper wrapper--header">
+  
+    <h1 class="header__logo">
+      <a href="https://www.globalzero.org"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326.4 70.9"><path d="M10.3 57.1c.6-1.2 5.7-7.2 6.1-7.9.4-.7-.1-1.4-.1-1.4-2.8-3.9-4.7-7.2-4.7-12.4 0-6.5 3.1-12.5 7.3-16.7 3.6-3.6 6-5.9 12.7-6.4 1-.1 2.9-.5 3.9-.5 3.2 0 6.2.6 8.9 1.8l1.2-1 5.9-8 .3-1C46.9 1 43.6-.1 36.6 0c-4.1.1-9.1.4-12.7 1.6-2.3.8-4.9 1.7-7 3.2-4.5 3-8.1 7.5-11 11.6-4 5.7-6.2 11.3-5.9 18.8C.2 38.9-.6 43 2.2 49c1.5 3.5 3.2 5.5 5.7 8.4.1 0 1.7.9 2.4-.3zm50.1-44.2c-1.7 2.2-5.2 6.5-5.2 6.5s-1.5 1.6-.6 2.2c3.8 2.5 4.3 8.2 4.3 13.6 0 2.9-1.2 5.7-2 8.5-.5 1.7-3.2 6.2-5.6 8.5-4.3 4.2-9.3 6.7-15.8 6.7-3.4 0-5.8-.9-8.7-2.2l-1.4.5s-5.9 7.5-6.5 8.2c-.5.7.2 1.8.2 1.8 5.1 2.8 9.6 3.5 15.8 3.6 11.6.2 11.4-1.7 16.1-4 8.3-4.1 14.4-11.3 17.9-19.9 1.8-4.6 1.7-7.3 1.7-11.4 0-2.6.5-8.4-1.6-12.9-1.6-4.4-3.3-7-6.4-10.4.3.1-.5-1.5-2.2.7z" fill="#009bda"/><path d="M92.2 51.5h6.2v5.1H84.2l6.7-19.4h-5.5v-4.7h13.4l-6.6 19zm16.2 5.1V32.4h12.8v4.7h-6.3v4.7h4.1v4.6h-4.1v5h6.3v5.1h-12.8zm32.8 0c-.5-1.1-.8-2.5-.8-3.7v-4.3c0-.5-.5-1.3-1.4-1.3h-1.5v9.3H131V32.4h9.2c3.1 0 6.1 2 6.1 5v4.3c0 1.1-.8 2.5-2.5 3.1 1.7.6 2.6 2 2.6 3.1v4.5c0 1.5.4 2.9.8 4h-6zm-.9-18.3c0-.7-.4-1-1.1-1h-1.6v5.4h1.6c.7 0 1.1-.3 1.1-1v-3.4zm24 18.9c-4.6 0-8-2.7-8-6V37.8c0-3.3 3.4-6 8-6s8 2.7 8 6v13.4c0 3.3-3.4 6-8 6zm1.4-19c0-.6-.6-1-1.4-1-.8 0-1.4.4-1.4 1v12.6c0 .6.6 1 1.4 1 .8 0 1.4-.4 1.4-1V38.2zm-70.2-17H95l-.6.2-.2.4v3.1l-.2.2h-.6l-.7-.9c-.8.8-1.9 1.3-3.3 1.3-3.2 0-5.4-2.1-5.4-4.8v-.6c0-2.8 2.2-5.1 5.7-5.1 1.1 0 2.1.4 2.8 1l.7-.7h.6l.2.2v3.1l-.2.2h-.6l-.2-.2c-.6-1.7-1.8-2.7-3.3-2.7-2 0-3.1 1.6-3.1 4.4 0 2.6 1.1 4.2 3.1 4.2.9 0 1.8-.5 2.2-1.1v-1.6l.1-.4-.6-.2h-.7l-.1-.2v-.6l.2-.2h.9l1.5.2 1.5-.2h.8l.2.2v.6l-.2.2zm14.9 4.1l-.4-.2h-4.5l-1.9-.2-1.5.2H101l-.2-.2v-.6l.2-.2h.7l.6-.2.2-.4v-6.9l-.2-.4-.6-.2h-.7l-.2-.2v-.6l.2-.2h1.1l1.5.2 1.5-.2h1.1l.2.2v.8l-.2.2h-.7l-.6.2-.2.4v6.9l.3.3.6.2h1.6l1.5-.4.8-.8.3-1.3.2-.2h.5l.2.2v3.5l-.3.1zm11 .1c-3.4 0-5.8-1.8-5.8-4.8V20c0-3 2.4-5.1 5.8-5.1s5.8 1.8 5.8 4.8v.6c0 3-2.5 5.1-5.8 5.1zm3.1-5.3c0-2.6-1.2-4-2.6-4.1l-.5-.1h-.2l-.5.1c-1.4.2-2.6 1.5-2.6 4.1v.2c0 2.6 1.2 4 2.6 4.1l.5.1h.2l.5-.1c1.4-.2 2.6-1.5 2.6-4.1v-.2zm14.5 5h-1.7l-1.9-.2-1.5.2h-1.1l-.2-.2v-.6l.2-.2h.7l.6-.2.2-.4v-6.9l-.2-.4-.6-.2h-.7l-.2-.2v-.6l.2-.2h1.1l1.5.2 1.9-.2h1.5c2.1 0 3.6 1 3.6 2.4 0 1.1-.8 2-2.2 2.2 1.7.3 2.7 1.1 2.7 2.3 0 2-1.7 3.2-3.9 3.2zm-.6-8.9h-1l-.6.2-.2.4v2.6l.1.2h1.6c1.2 0 2-.6 2-1.6-.1-1.2-.8-1.8-1.9-1.8zm-.1 4.1h-1.6l-.1.2v3.1l.2.4.6.2h1.2c1.3 0 2.1-.7 2.1-2-.1-1.2-1-1.9-2.4-1.9zm21.2 4.8h-1l-1.5-.2-1.5.2h-1.3l-.2-.2v-.6l.2-.2h.7l.6-.2.2-.4-.7-1.5-.2-.2h-4.2l-.2.2-.7 1.5.2.4.6.2h.7l.2.2v.7l-.2.2H150l-1.1-.2-1.1.2h-.7l-.2-.2v-.6l.2-.2h.5l.6-.2.4-.4 3.7-8.2.2-.2h.7l.9-.2.2.2 3.7 8.4.4.4.6.2h.5l.2.2v.6l-.2.1zm-6.7-7.8l-.2-.7-.2.7-1.6 3.7.1.1h3.4l.1-.1-1.6-3.7zm20.2 8l-.4-.2h-4.5l-1.9-.2-1.5.2h-1.1l-.2-.2v-.6l.2-.2h.7l.6-.2.2-.4v-6.9l-.2-.4-.6-.2h-.7l-.2-.2v-.6l.2-.2h1.1l1.5.2 1.5-.2h1.1l.2.2v.8l-.2.2h-.7l-.6.2-.2.4v6.9l.2.4.6.2h1.6l1.5-.4.8-.8.3-1.3.2-.2h.5l.2.2v3.5h-.2zm15.4 40.2h-.4V8.4h.4v57.1zm23-33.9h-.5l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.3l.3-.2.1-.2-.4-1.1-.1-.1h-2.4l-.1.1-.4 1.1.1.2.3.1h.3l.1.1v.2l-.1.1h-.6l-.7-.1-.7.1h-.3l-.1-.1v-.2l.1-.1h.3l.3-.1.2-.2 2.2-5.2.1-.1h.4l.5-.1.1.1 2.2 5.3.2.2.3.1h.3l.1.1v.2l.1.2zm-3.9-5l-.1-.4-.1.4-1 2.3.1.1h2l.1-.1-1-2.3zm19.3-.7h-.3l-.3.1-.2.2-2 5.2-.1.1h-.4l-.1-.1-1.5-4.1-.1-.4-.1.4-1.5 4.1-.1.1h-.4l-.1-.1-2.1-5.2-.2-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.9.1.9-.1h.7l.1.1v.2l-.1.1h-.3l-.5.1-.1.2 1.3 3.4.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.7.1.7-.1h.7l.1.1v.2l-.1.1h-.3l-.3.1-.1.2 1.2 3.4-.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.5l.7.1.7-.1h.4l.1.1v.2l-.2.1zm5 5.8c-1.9 0-3.3-1.3-3.3-3v-.4c0-1.8 1.4-3.2 3.4-3.2 1.9 0 3.3 1.3 3.3 3v.4c-.1 1.9-1.4 3.2-3.4 3.2zm1.9-3.3c0-1.7-.6-2.6-1.5-2.7h-.7c-.9.1-1.5 1-1.5 2.7v.1c0 1.7.6 2.6 1.5 2.7h.7c.9-.1 1.5-1 1.5-2.7v-.1zm10.7 3.2h-.6c-1 0-1.3-.2-1.7-.7 0-1.4-.4-2.1-1.4-2.1h-.7l-.1.1v1.9l.1.2.3.1h.5l.1.1v.2l-.1.1h-.6l-.9-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1 1.1-.1h.9c1.3 0 2.3.7 2.3 1.5s-.5 1.3-1.5 1.6l.7.4.3.3.5 1.6.2.2.3.1h.3l.1.1v.2h-.1zm-3.6-5.7h-.5l-.3.1-.1.2v1.9l.1.1h.7c1.1 0 1.6-.5 1.6-1.2s-.6-1.1-1.5-1.1zm11.2 5.8l-.2-.1h-2.5l-1.1-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1.9-.1h.7l.1.1v.2l-.1.1h-.5l-.3.1-.1.2v4.5l.1.2.3.1h.8l.9-.2.5-.5.2-.8.1-.1h.2l.1.1v2.1l-.1-.1zm5.6-.1h-.6l-1.1-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1 1.1-.1h.6c2.1 0 3.5 1.2 3.5 2.9v.1c0 1.5-1.5 2.9-3.5 2.9zm.5-5.6l-.3-.1h-.8l-.3.1-.1.2v4.5l.1.2.3.1h.7l.3-.1c1-.2 1.6-1.1 1.6-2.6.1-1.3-.5-2.2-1.5-2.3zm19-.1h-.3l-.3.1-.2.2-2 5.2-.1.1h-.4l-.1-.1-1.5-4.1-.1-.4-.1.4-1.5 4.1-.1.1h-.4l-.1-.1-2.1-5.2-.2-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.9.1.9-.1h.7l.1.1v.2l-.1.1h-.3l-.3.1-.1.2 1.3 3.4.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.7.1.7-.1h.7l.1.1v.2l-.1.1h-.3l-.3.1-.1.2 1.2 3.4.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.5l.7.1.7-.1h.4l.1.1v.2l-.6.1zm5 5.7h-.7l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.7l.9.1.8-.1h.8l.1.1v.2l-.1.1h-.5l-.3.1-.1.2v4.5l.1.2.3.1h.5l.1.1v.2l-.1.1zm8.1-4.1h-.2l-.1-.1-.2-.7-.5-.5-.7-.2h-.5l-.1.1v4.6l.1.2.3.1h.5l.1.1v.2l-.1.1h-.7l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.6l-.1-.1-.1-.1h-.4l-.7.2-.5.5-.2.7-.1.1h-.2l-.1-.1v-1.9l.1-.1.2.1h1.5l1.1.1 1.1-.1h1.5l.2-.1.1.1v1.9l.3.2zm9.6 4.1h-.6l-.9-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.4l.3-.1.1-.2v-2l-.1-.1h-2.6l-.1.1v2l.1.2.3.1h.4l.1.1v.2l-.1.1h-.6l-.9-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1.8-.1h.7l.1.1v.2l-.1.1h-.4l-.3.1-.1.2v1.7l.1.1h2.6l.1-.1v-1.7l-.1-.2-.3-.1h-.4l-.1-.1v-.2l.1-.1h.7l.8.1.9-.1h.6l.1.1v.2l-.1.1h-.5l-.3-.1-.1.2v4.5l.1.3.3.1h.5l.1.1v.2l-.1.2zm5.8.1c-1.9 0-3.3-1.3-3.3-3v-.4c0-1.8 1.4-3.2 3.4-3.2 1.9 0 3.3 1.3 3.3 3v.4c-.1 1.9-1.4 3.2-3.4 3.2zm1.9-3.3c0-1.7-.6-2.6-1.5-2.7h-.7c-.9.1-1.5 1-1.5 2.7v.1c0 1.7.6 2.6 1.5 2.7h.7c.9-.1 1.5-1 1.5-2.7v-.1zm10.8-2.5h-.5l-.3.1-.1.2v4.1c-.6 1-1.4 1.4-2.6 1.4-1.1 0-1.9-.4-2.6-1.4v-4.1l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1.8-.1h.8l.1.1v.2l-.1.1h-.4l-.3.1-.1.2v3.5c0 .8.7 1.3 1.6 1.3.9 0 1.6-.6 1.6-1.3v-3.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.7l.7.1.7-.1h.5l.1.1v.2l-.3.1zm8 1.6h-.2l-.1-.1-.2-.7-.5-.5-.7-.2h-.4l-.1.1-.1.1v4.6l.1.2.3.1h.5l.1.1v.2l-.1.1h-.7l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.6l-.1-.1-.1-.1h-.4l-.7.2-.5.5-.2.7-.1.1h-.2l-.1-.1v-1.9l.1-.1.2.1h1.5l1.1.1 1.1-.1h1.5l.2-.1.1.1v1.9l.3.1zM212 41.1h-.4l-.3.1-.1.2v5.3l-.1.1h-.2l-.2-.1-3.9-4.8-.2-.3V46l.1.2.3.1h.5l.1.1v.2l-.1.1h-.6l-.7-.1-.7.1h-.5l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.5l.7.1.7-.1h.3l.2.1 3.1 3.8.2.3v-3.3l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.7.1.7-.1h.5l.1.1V41l-.4.1zm9.1 0h-.5l-.3.1-.1.2v4.1c-.6 1-1.4 1.4-2.6 1.4-1.1 0-1.9-.4-2.6-1.4v-4.1l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1.8-.1h.8l.1.1v.2l-.1.1h-.5l-.3.1-.1.2V45c0 .8.7 1.3 1.6 1.3.9 0 1.6-.6 1.6-1.3v-3.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.7l.7.1.7-.1h.5l.1.1v.1l-.2.1zm7.9 5.2h-.2l-.2-.2-.2.2c-.4.4-1.1.7-1.9.7-1.8 0-3.2-1.3-3.2-3v-.4c0-1.8 1.4-3.2 3.4-3.2.6 0 1.3.2 1.6.6l.3-.4h.3l.1.1v1.9l-.1.1h-.2l-.1-.1c-.3-1.1-1-1.7-1.9-1.7-1.2 0-1.8 1-1.8 2.8 0 1.7.7 2.7 1.9 2.7.9 0 1.7-.6 1.9-1.6l.1-.1h.2l.1.1v1.3l-.1.2zm7.9.6l-.2-.1h-2.5l-1.1-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1V41l.1-.1h.6l.9.1.9-.1h.7l.1.1-.1.1h-.5l-.3.1-.1.2V46l.1.2.3.1h.8l.9-.2.5-.5.2-.8.1-.1h.2l.1.1v2.1h-.1zm7.6 0l-.2-.1h-2.6l-1.1-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1V41l.1-.1h.6l.9.1 1.1-.1h2.4l.2-.1.1.1v1.9l-.1.1h-.2l-.1-.1-.2-.7-.5-.5-.7-.2h-1l-.3.1-.1.2v1.7l.1.1h.6l.6-.3.2-.5v-.2l.1-.1h.2l.1.1v.5l-.1.6.1.6v.7l-.1.1h-.2l-.1-.1v-.2l-.2-.5-.6-.3h-.6l-.1.1v2l.1.2.3.1h1l.9-.2.5-.5.2-.8.1-.1h.2l.1.1v2.1zm9.2-.1h-.5l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.3l.3-.1.1-.2-.4-1.1-.1-.1h-2.4l-.1.1-.4 1.1.1.2.3.1h.3l.1.1v.2l-.1.1h-.6l-.7-.1-.7.1h-.3l-.1-.1v-.2l.1-.1h.3l.3-.1.2-.2 2.2-5.2.1-.1h.4l.5-.1.1.1 2.2 5.3.2.2.3.1h.3l.1.1v.2l.1.1zm-3.9-4.9l-.1-.4-.1.4-.9 2.3.1.1h2l.1-.1-1.1-2.3zm12.1 4.9h-.6c-1 0-1.3-.2-1.7-.7 0-1.4-.4-2.1-1.4-2.1h-.7l-.1.1V46l.1.2.3.1h.5l.1.1v.2l-.1.1h-.6l-.9-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1 1.1-.1h.9c1.3 0 2.3.7 2.3 1.5s-.5 1.3-1.5 1.6l.7.4.3.3.5 1.6.2.2.3.1h.3l.1.1v.2h-.1zm-3.6-5.7h-.5l-.3.1-.1.2v1.9l.1.1h.7c1.1 0 1.6-.5 1.6-1.2 0-.6-.6-1.1-1.5-1.1zm18.9 0h-.3l-.3.1-.2.2-2 5.2-.1.1h-.4l-.1-.1-1.5-4.1-.1-.4-.1.4-1.5 4.1-.1.1h-.4l-.1-.1-2.1-5.2-.2-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.9.1.9-.1h.7l.1.1v.2l-.1.1h-.3l-.3.1-.1.2 1.3 3.4.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.3l-.1-.1v-.2l.1-.1h.6l.7.1.7-.1h.7l.1.1v.2l-.1.1h-.3l-.3.1-.1.2 1.2 3.4.1.4.1-.4 1.2-3.4-.1-.2-.3-.1h-.7l-.1-.1v-.2l.1-.1h.5l.7.1.7-.1h.4l.1.1v.2l-.2.1zm7 5.8l-.2-.1h-2.6l-1.1-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1V41l.1-.1h.6l.9.1 1.1-.1h2.4l.2-.1.1.1v1.9l-.1.1h-.2l-.1-.1-.2-.7-.5-.5-.7-.2h-1l-.3.1-.1.2v1.7l.1.1h.6l.6-.3.2-.5v-.2l.1-.1h.2l.1.1v.5l-.1.6.1.6v.7l-.1.1h-.2l-.1-.1v-.2l-.2-.5-.6-.3h-.6l-.1.1v2l.1.2.3.1h1l.9-.2.5-.5.2-.8.1-.1h.2l.1.1v2l-.1.1zm9.2-.1h-.5l-.9-.1-.9.1h-.7l-.1-.1v-.2l.1-.1h.3l.3-.1.1-.2-.4-1.1-.1-.1h-2.4l-.1.1-.4 1.1.1.2.3.1h.3l.1.1v.2l-.1.1h-.6l-.7-.1-.7.1h-.3l-.1-.1v-.2l.1-.1h.3l.3-.1.3-.3 2.2-5.2.1-.1h.4l.5-.1.1.1 2.2 5.3.2.2.3.1h.3l.1.1v.4zm-3.9-4.9l-.1-.4-.1.4-1 2.3.1.1h2l.1-.1-1-2.3zm8.7 2.4h-1.1l-.1.1V46l.1.2.3.1h.5l.1.1v.2l-.1.1h-.7l-.9-.1-.9.1h-.6l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.9.1 1.1-.1h.7c1.4 0 2.5.7 2.5 1.6.2 1-.9 1.9-2.4 1.9zm-.2-3.2h-.5l-.3.1-.1.2v2.2l.1.1h.6c1.1 0 1.7-.5 1.7-1.4 0-.7-.6-1.2-1.5-1.2zm8 5.9c-1.9 0-3.3-1.3-3.3-3v-.4c0-1.8 1.4-3.2 3.4-3.2 1.9 0 3.3 1.3 3.3 3v.4c0 1.8-1.4 3.2-3.4 3.2zm1.9-3.3c0-1.7-.6-2.6-1.5-2.7h-.7c-.9.1-1.5 1-1.5 2.7v.1c0 1.7.6 2.6 1.5 2.7h.7c.9-.1 1.5-1 1.5-2.7v-.1zm10.8-2.6h-.4l-.3.1-.1.2v5.3l-.1.1h-.2l-.2-.1-3.9-4.8-.2-.3V46l.1.2.3.1h.5l.1.1v.2l-.1.1h-.6l-.7-.1-.7.1h-.5l-.1-.1v-.2l.1-.1h.5l.3-.1.1-.2v-4.5l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.5l.7.1.7-.1h.3l.2.1 3.1 3.8.2.3v-3.3l-.1-.2-.3-.1h-.5l-.1-.1v-.2l.1-.1h.6l.7.1.7-.1h.5l.1.1V41l-.4.1zm4.9 5.9c-.6 0-1.2-.2-1.6-.6l-.4.5h-.2l-.1-.1v-2l.1-.1h.2l.1.1c.3 1.1 1.1 1.9 1.9 1.9.9 0 1.4-.4 1.4-1 0-.5-.4-.9-1.4-1.2-1.5-.5-2.2-1.1-2.2-2 0-1 1-1.7 2.2-1.7.6 0 1.1.2 1.5.5l.3-.3h.2l.1.1v1.7l-.1.1h-.2l-.1-.1c-.2-.9-.9-1.5-1.6-1.5-.8 0-1.2.4-1.2.9s.3.8 1.4 1.1c1.5.4 2.2 1 2.2 2-.1.8-1.1 1.7-2.5 1.7z" fill="#fff"/></svg></a>
+    </h1>
+  
+    <button class="btn-nav roboto" id="btn-nav" type="button"><span>Menu</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428.6 483.7" enable-background="new 0 0 428.6 483.7"><path class="btn-nav__close" fill="#1B99D4" d="M428.6 241.1v-101.4c0-14-5.9-24.9-18-31.9-59-34.3-118-68.4-177.1-102.5-12.6-7.3-25.3-6.9-37.9.4-58 33.4-115.9 66.9-174 100.2-14.7 8.4-21.6 20.7-21.6 37.6l.1 198.5c0 15.4 6.2 27.1 19.9 34.9 43.7 25.1 87.3 50.4 130.9 75.7 14.7 8.5 29.4 17 44.1 25.4 12.3 7.1 24.8 8 37.4.7 58.3-33.7 116.7-67.5 175-101.1 14.3-8.3 21.2-20.4 21.1-36.9-.1-33.3.1-66.4.1-99.6zm-105.5 94.7c4.1 4.1 4.1 10.8 0 14.9-2 2.1-4.7 3.1-7.4 3.1s-5.4-1-7.4-3.1l-94-94-94 94c-2 2.1-4.7 3.1-7.4 3.1s-5.4-1-7.4-3.1c-4.1-4.1-4.1-10.7 0-14.9l94-94-94-94c-4.1-4.1-4.1-10.7 0-14.9 4.1-4.1 10.8-4.1 14.8 0l94 94 94-94c4.1-4.1 10.7-4.1 14.8 0 4.1 4.1 4.1 10.7 0 14.9l-94 94 94 94z"/><path class="btn-nav__menu" fill="#fff" d="M428.6 241.1c0 33.2-.1 66.3 0 99.5.1 16.5-6.8 28.7-21.1 36.9-58.4 33.6-116.7 67.4-175 101.1-12.6 7.3-25.1 6.3-37.4-.7-14.7-8.4-29.4-16.9-44.1-25.4-43.6-25.2-87.2-50.6-130.9-75.7-13.7-7.8-19.9-19.6-19.9-34.9-.2-66.2-.1-132.3-.2-198.5 0-16.9 6.9-29.2 21.6-37.6 58.1-33.3 116-66.8 173.9-100.2 12.6-7.3 25.3-7.6 37.9-.4 59.1 34.1 118.2 68.2 177.1 102.5 12.1 7 18 17.9 18 31.9.1 33.8.1 67.7.1 101.5zm-213.8-11.1c-24.5 0-49-.1-73.5 0-2.1 0-4.4.1-6.4.6-4.8 1.1-8.1 5.5-8.1 10.1 0 4.8 3.2 9 8.1 10.2 1.9.5 4 .6 5.9.6h146c2.8 0 5.7-.1 8.4-.6 5-1 7.9-5 7.9-10.1 0-6.6-4.5-10.6-12.3-10.7-25.3-.1-50.7-.1-76-.1zm-.5 94c25.5 0 51 .1 76.5 0 7.8 0 12.4-4 12.4-10.6 0-6.5-4.8-10.6-12.4-10.7h-151.5c-7.5 0-12.5 4.4-12.5 10.7.1 6.4 4.8 10.5 12.5 10.5 25 .1 50 .1 75 .1zm.5-142.8c25.3 0 50.6.1 76 0 7.7 0 12.4-4.2 12.4-10.7 0-6.4-4.9-10.6-12.5-10.6h-151.4c-4.4 0-8.2 1.2-10.7 5.1-2.3 3.6-2.3 7.2-.2 10.9 2.3 4.1 6 5.4 10.5 5.3 25.3-.1 50.6 0 75.9 0z"/></svg></button>
+  
+  </div>
+  <nav class="site-nav roboto">
+             
+      <ol class="site-nav__list">
+            <li class="site-nav__item  site-nav__item--parent">
+        <div class="wrapper">
+        <div class="site-nav__link-wrap ">
+          <div class="wrapper ">
+            <span class="site-nav__text"><a class="site-nav__link" href="https://www.globalzero.org/reaching-zero/">Reaching Zero</a></span>
+          </div>
+        </div>
+                <div class="wrapper">
+            <ol class="site-nav__sub-menu">
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/reaching-zero/">Global Zero Action Plan</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/no-first-use/">Support No First Use</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/blundering-toward-nuclear-chaos-2020/">Blundering Toward Nuclear Chaos</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/the-end-of-nuclear-warfighting/">"Alt" Nuclear Posture Review</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/de-alerting/">Hair-Trigger Alert</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/reaching-zero/nato-russia-tactical-nuclear-weapons/">Tactical Nuclear Weapons</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/reaching-zero/reports/">Reports and Resources</a></li>
+                        </ol>
+        </div>
+                </div>
+      </li>
+            <li class="site-nav__item  site-nav__item--parent">
+        <div class="wrapper">
+        <div class="site-nav__link-wrap ">
+          <div class="wrapper ">
+            <span class="site-nav__text"><a class="site-nav__link" href="https://www.globalzero.org/crisis-response/">Crisis Response</a></span>
+          </div>
+        </div>
+                <div class="wrapper">
+            <ol class="site-nav__sub-menu">
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/crisis-response/nuclear-crisis-group/">Nuclear Crisis Group</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/crisis-response/nuclear-flashpoints/">Nuclear Flashpoints</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/crisis-response/ncg-recommendations/">Steps to De-Escalate</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/crisis-response/military-incidents-project/">Military Incidents Project</a></li>
+                        </ol>
+        </div>
+                </div>
+      </li>
+            <li class="site-nav__item  site-nav__item--parent">
+        <div class="wrapper">
+        <div class="site-nav__link-wrap ">
+          <div class="wrapper ">
+            <span class="site-nav__text"><a class="site-nav__link" href="https://www.globalzero.org/about-us/">About us</a></span>
+          </div>
+        </div>
+                <div class="wrapper">
+            <ol class="site-nav__sub-menu">
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/about-us/our-mission/">Our Mission</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/about-us/movement-leaders/">Movement Leaders</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/about-us/team/">The Team</a></li>
+                        </ol>
+        </div>
+                </div>
+      </li>
+            <li class="site-nav__item  site-nav__item--parent">
+        <div class="wrapper">
+        <div class="site-nav__link-wrap ">
+          <div class="wrapper ">
+            <span class="site-nav__text"><a class="site-nav__link" href="https://www.globalzero.org/media/">Media</a></span>
+          </div>
+        </div>
+                <div class="wrapper">
+            <ol class="site-nav__sub-menu">
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/media/in-the-news/">In the News</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/media/press-releases/">Press Releases</a></li>
+                        <li class="site-nav__sub-menu-item"><a href="https://www.globalzero.org/updates/">Blog</a></li>
+                        </ol>
+        </div>
+                </div>
+      </li>
+            </ol>
+      
+      <div class="wrapper clearfix">
+      
+        <div class="site-nav__additional-links">
+                    <a  href="https://www.globalzero.org/donate/">Donate</a>
+                    <a  href="https://www.globalzero.org/become-a-global-zero-member/">Become a Global Zero Member</a>
+                    <a  href="https://www.globalzero.org/contact-us/">Contact Us</a>
+                    <a class="group-2" href="https://www.globalzero.org/careers/">Work @ GZ</a>
+                    <a class="group-2" href="https://www.globalzero.org/privacy/">Privacy</a>
+                </div>
+
+        <div class="site-nav__social-links">
+          
+<a href="https://www.facebook.com/GlobalZero" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h127.8V163.5h-34.8v-40.3h34.8V93.6c0-34.5 21.1-53.2 51.8-53.2 14.7 0 27.4 1.1 31.1 1.6v36h-21.3c-16.7 0-20 7.9-20 19.6v25.7H224l-5.2 40.3h-34.7V267h68c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7z" fill="currentColor"/></svg></a>
+
+<a href="https://twitter.com/globalzero" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h237.4c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7zm-45.6 94.9c.1 1.6.1 3.2.1 4.8 0 49.1-37.4 105.7-105.7 105.7-21 0-40.5-6.1-56.9-16.7 2.9.3 5.9.5 8.9.5 17.4 0 33.4-5.9 46.1-15.9-16.2-.3-30-11-34.7-25.8 2.3.4 4.6.7 7 .7 3.4 0 6.7-.5 9.8-1.3-17-3.4-29.8-18.4-29.8-36.4v-.5c5 2.8 10.7 4.5 16.8 4.6-10-6.7-16.5-18-16.5-30.9 0-6.8 1.8-13.2 5-18.7 18.3 22.5 45.7 37.2 76.5 38.8-.6-2.7-1-5.6-1-8.5 0-20.5 16.6-37.1 37.1-37.1 10.7 0 20.3 4.5 27.1 11.7 8.5-1.7 16.4-4.8 23.6-9-2.8 8.7-8.7 15.9-16.3 20.5 7.5-.9 14.7-2.9 21.3-5.8-4.9 7.6-11.2 14.1-18.4 19.3z" fill="currentColor"/></svg></a>
+
+<a href="https://www.youtube.com/user/globalzerochannel" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path fill="currentColor" d="M145.7 165v-21.7h-12.2l-.1 74.9 10.1-.1.9-4.7c12.9 11.8 21 3.7 20.9-10.4v-29.2c0-11.1-8.3-17.8-19.6-8.8zm10.5 40.1c0 2.4-2.4 4.4-5.4 4.4-2.9 0-5.4-2-5.4-4.4v-32.8c0-2.4 2.4-4.4 5.4-4.4 3 0 5.4 2 5.4 4.4v32.8zM96.8 153.1v-9.8H57.6v9.5l12.2.1v65.9h12.3v-65.7zM131.3 100.9c3 0 5.4-2.7 5.4-6V64c0-3.3-2.4-6-5.4-6-3 0-5.4 2.7-5.4 6v30.9c0 3.3 2.4 6 5.4 6z"/><path fill="currentColor" d="M113.9 162.8v35.1c0 5.1.3 7.6 0 8.5-1 2.7-5.5 5.6-7.2.3-.3-.9 0-3.7 0-8.6v-35.3H94.4v34.8c0 5.3-.1 9.3 0 11.1.3 3.2.2 6.9 3.2 9 5.5 4 16.1-.6 18.7-6.3v7.2h9.8v-55.9h-12.2zM194.5 199.2v6.3c0 2.7-2.3 5-5 5h-1.8c-2.8 0-5-2.2-5-5V192.1h21v-7.9c0-5.8-.1-11.6-.6-14.9-1.5-10.5-16.2-12.1-23.6-6.8-2.3 1.7-4.1 3.9-5.1 6.9-1 3-1.6 7.1-1.6 12.3v17.4c0 28.9 35.2 24.9 31 0l-9.3.1zm-11.6-23.5c0-3 2.5-5.4 5.5-5.4h.7c3 0 5.5 2.5 5.5 5.4l-.1 6.7h-11.6v-6.7z"/><path fill="currentColor" d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h237.4c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7zm-97.1 50.6h11.2v45.2c0 2.4 2 4.5 4.5 4.5s4.5-2 4.5-4.5V50.6h10.8v58.1h-13.7l.2-4.8c-.9 2-2.1 3.4-3.4 4.4-1.4 1-2.9 1.5-4.7 1.5-2 0-3.7-.5-5-1.4-1.3-.9-2.3-2.2-2.9-3.7-.6-1.6-1-3.2-1.2-4.8-.1-1.7-.2-5-.2-10V50.6zm-33.5.6c2.4-1.9 5.5-2.9 9.3-2.9 3.2 0 5.9.6 8.1 1.8 2.3 1.2 4 2.8 5.2 4.8 1.2 2 2.1 4 2.5 6 .5 2.1.7 5.3.7 9.5v14.7c0 5.4-.2 9.4-.6 11.9-.4 2.5-1.3 4.9-2.7 7.1-1.4 2.2-3.1 3.8-5.3 4.8-2.2 1-4.6 1.6-7.4 1.6-3.1 0-5.7-.4-7.9-1.3s-3.8-2.2-5-4c-1.2-1.8-2.1-4-2.6-6.5s-.8-6.4-.8-11.5V71.8c0-5.6.5-9.9 1.4-13.1 1-3.1 2.6-5.6 5.1-7.5zM85.8 27.7L94 56.1l8.1-28.4h14.1L101 65.9v44.6H88.1L88 66 71.8 27.7h14zM221.6 212c0 15-13 27.2-28.8 27.2H74.2c-15.9 0-28.8-12.2-28.8-27.2v-62.4c0-15 13-27.2 28.8-27.2h118.6c15.9 0 28.8 12.2 28.8 27.2V212z"/></svg></a>
+        </div>
+
+        <p class="site-nav__credit">&reg; 2021 Global Zero</p>
+
+
+      </div>
+      
+    </nav>
+</header>
+
+
+
+
+
+<!---------------------------->
+<!-- Homepage Intro Section -->
+<!---------------------------->
+
+<section class="home-intro">
+
+
+
+  <div class="bg-video">
+    <!-- <video id="bg-video" loop muted playsinline poster="https://www.globalzero.org/wp-content/themes/globalzero-theme/videos/busy-new-york-intersection.jpg"> -->
+    <video data-sr-chain="1" data-sr-order="7" data-sr-video="true" id="bg-video" loop muted playsinline poster="https://www.globalzero.org/wp-content/themes/globalzero-theme/videos/GZ_hero_720_9_14.png">
+      <source src="https://www.globalzero.org/wp-content/themes/globalzero-theme/videos/GZ_hero_720_9_14.mp4" type="video/mp4">
+      <source src="https://www.globalzero.org/wp-content/themes/globalzero-theme/videos/GZ_hero_720_9_14.ogg" type="video/ogg">
+      <source src="https://www.globalzero.org/wp-content/themes/globalzero-theme/videos/GZ_hero_720_9_14.webm" type="video/webm">  
+    </video>
+  </div>
+  
+  <div class="home--intro__text clearfix">
+  
+    <h1 class="home-intro__heading">
+      <span id="line-1" data-sr-chain="1" data-sr-order="1">We Can</span> 
+      <strong>
+        <span data-sr-chain="1" data-sr-order="2">Eliminate</span>
+        <span data-sr-chain="1" data-sr-order="3">Nuclear</span>
+        <span data-sr-chain="1" data-sr-order="4">Weapons</span>
+      </strong>
+      <span data-sr-chain="1" data-sr-order="5">In Our Lifetime</span>
+    </h1>
+    <div class="home-intro__logo" data-sr-chain="1" data-sr-order="6" data-sr-distance="0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 245.3"><path d="M35.8 197.8c2.1-4.2 19.7-24.9 21.1-27.4 1.4-2.4-.3-4.8-.3-4.8-9.7-13.5-16.3-24.9-16.3-42.9 0-22.5 10.7-43.3 25.3-57.8 12.5-12.5 20.8-20.4 44-22.2 3.5-.3 10-1.7 13.5-1.7 11.1 0 21.5 2.1 30.8 6.2l4.2-3.5L178.5 16l1-3.5c-17-9-28.4-12.8-52.6-12.5-14.2.3-31.5 1.4-44 5.5-8 2.8-17 5.9-24.2 11.1C43 27 30.6 42.6 20.5 56.8 6.7 76.6-.9 96 .1 121.9c.7 12.8-2.1 27 7.6 47.8 5.2 12.1 11.1 19.1 19.7 29.1.4 0 5.9 3.2 8.4-1zM209.3 44.7c-5.9 7.6-18 22.5-18 22.5s-5.2 5.5-2.1 7.6c13.2 8.7 14.9 28.4 14.9 47.1 0 10-4.2 19.7-6.9 29.4-1.7 5.9-11.1 21.5-19.4 29.4-14.9 14.5-32.2 23.2-54.7 23.2-11.8 0-20.1-3.1-30.1-7.6l-4.8 1.7s-20.4 26-22.5 28.4c-1.7 2.4.7 6.2.7 6.2 17.7 9.7 33.3 12.1 54.7 12.5 40.2.7 39.5-5.9 55.8-13.9 28.7-14.2 49.9-39.1 62-68.9 6.2-15.9 5.9-25.3 5.9-39.5 0-9 1.7-29.1-5.5-44.7-5.5-15.2-11.4-24.2-22.2-36 .9.5-1.9-5-7.8 2.6z" fill="#009bda"/><path d="M319.4 178.4h21.5v17.7h-49.2l23.2-67.2h-19.1v-16.3h46.4l-22.8 65.8zm56.2 17.7v-83.8h44.3v16.3h-21.8v16.3h14.2v15.9h-14.2v17.3h21.8v17.7h-44.3v.3zm113.6 0c-1.7-3.8-2.8-8.7-2.8-12.8v-14.9c0-1.7-1.7-4.5-4.8-4.5h-5.2v32.2h-22.5v-83.8h31.9c10.7 0 21.1 6.9 21.1 17.3v14.9c0 3.8-2.8 8.7-8.7 10.7 5.9 2.1 9 6.9 9 10.7v15.6c0 5.2 1.4 10 2.8 13.9h-20.8v.7zm-3.2-63.4c0-2.4-1.4-3.5-3.8-3.5h-5.5v18.7h5.5c2.4 0 3.8-1 3.8-3.5v-11.7zm83.2 65.4c-15.9 0-27.7-9.4-27.7-20.8v-46.4c0-11.4 11.8-20.8 27.7-20.8 15.9 0 27.7 9.4 27.7 20.8v46.4c0 11.5-11.8 20.8-27.7 20.8zm4.8-65.8c0-2.1-2.1-3.5-4.8-3.5s-4.8 1.4-4.8 3.5V176c0 2.1 2.1 3.5 4.8 3.5s4.8-1.4 4.8-3.5v-43.7zM330.9 73.5h-1.7l-2.1.7-.7 1.4v10.7l-.7.7h-2.1l-2.4-3.1c-2.8 2.8-6.6 4.5-11.4 4.5-11.1 0-18.7-7.3-18.7-16.6v-2.1c0-9.7 7.6-17.7 19.7-17.7 3.8 0 7.3 1.4 9.7 3.5l2.4-2.4h2.1l.7.7v10.7l-.7.7h-2.1l-.7-.7c-2.1-5.9-6.2-9.4-11.4-9.4-6.9 0-10.7 5.5-10.7 15.2 0 9 3.8 14.5 10.7 14.5 3.1 0 6.2-1.7 7.6-3.8v-5.5l.3-1.4-2.1-.7h-2.4l-.3-.7v-2.1l.7-.7h3.1l5.2.7 5.2-.7h2.8l.7.7v2.1l-.7.8zm51.6 14.2l-1.4-.7h-15.6l-6.6-.7-5.2.7h-3.8l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7h-2.4l-.7-.7v-2.1l.7-.7h3.8l5.2.7 5.2-.7h3.8l.7.7v2.8l-.7.7h-2.4l-2.1.7-.7 1.4v23.9l1 1 2.1.7h5.5l5.2-1.4 2.8-2.8 1-4.5.7-.7h1.7l.7.7v12.1l-.9.5zm38.1.3c-11.8 0-20.1-6.2-20.1-16.6v-2.1c0-10.4 8.3-17.7 20.1-17.7s20.1 6.2 20.1 16.6v2.1c0 10.4-8.7 17.7-20.1 17.7zm10.7-18.4c0-9-4.2-13.9-9-14.2l-1.7-.3h-.7l-1.7.3c-4.8.7-9 5.2-9 14.2v.7c0 9 4.2 13.9 9 14.2l1.7.3h.7l1.7-.3c4.8-.7 9-5.2 9-14.2v-.7zM481.5 87h-5.9l-6.6-.7-5.2.7H460l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7H460l-.7-.7v-2.1l.7-.7h3.8l5.2.7 6.6-.7h5.2c7.3 0 12.5 3.5 12.5 8.3 0 3.8-2.8 6.9-7.6 7.6 5.9 1 9.4 3.8 9.4 8 0 7-5.9 11.2-13.6 11.2zm-2-30.9H476l-2.1.7-.7 1.4v9l.3.7h5.5c4.2 0 6.9-2.1 6.9-5.5-.2-4.2-2.6-6.3-6.4-6.3zm-.4 14.2h-5.5l-.3.7v10.7l.7 1.4 2.1.7h4.2c4.5 0 7.3-2.4 7.3-6.9-.5-4.1-3.6-6.6-8.5-6.6zM552.5 87H549l-5.2-.7-5.2.7h-4.5l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4-2.4-5.2-.7-.7h-14.5l-.7.7-2.4 5.2.7 1.4 2.1.7h2.4l.7.7v2.4l-.7.7h-4.2l-3.8-.7-3.8.7h-2.4l-.7-.7v-2.1l.7-.7h1.7l2.1-.7 1.4-1.4 12.8-28.4.7-.7h2.4l3.1-.7.7.7 12.8 29.1 1.4 1.4 2.1.7h1.7l.7.7v2.1l-.7.4zm-23.2-27.1l-.7-2.4-.7 2.4-5.5 12.8.3.3h11.8l.3-.3-5.5-12.8zm70 27.8l-1.4-.7h-15.6l-6.6-.7-5.2.7h-3.8l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7h-2.4l-.7-.7v-2.1l.7-.7h3.8l5.2.7 5.2-.7h3.8l.7.7v2.8l-.7.7h-2.4l-2.1.7-.7 1.4v23.9l.7 1.4 2.1.7h5.5l5.2-1.4 2.8-2.8 1-4.5.7-.7h1.7l.7.7v12.1h-.6z" fill="#fff"/></svg>    </div>
+    <a href="#mission" class="home-intro__btn scrollto floatDown" data-sr-chain="1" data-sr-order="8" data-sr-distance="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 80"><path fill="#1898d3" d="M19.4 80c-.2-.2-.3-.4-.5-.6C12.7 73.7 6.6 68 .5 62.3c-.4-.3-.5-.6-.5-1.1V48.3c6.5 5.9 13 11.9 19.5 17.8 6.3-5.9 12.8-11.9 19.2-17.9.1 0 .1.1.2.1 0 .2.1.3.1.5v12.5c0 .3-.2.7-.5 1L20.2 79.4c-.2.2-.3.4-.5.6h-.3z"/><path fill="#1898d3" d="M19.4 56c-.2-.2-.3-.4-.5-.6C12.7 49.7 6.6 44 .5 38.3c-.4-.3-.5-.7-.5-1.2V24.2C6.5 30.1 13 36.1 19.5 42c6.3-5.9 12.8-11.9 19.2-17.9.1 0 .1.1.2.1 0 .2.1.3.1.5v12.5c0 .3-.2.7-.5 1-6.1 5.8-12.2 11.5-18.3 17.2-.2.2-.3.4-.5.6h-.3z"/><path fill="#1898d3" d="M19.4 31.8c-.2-.2-.3-.4-.5-.6-6.2-5.7-12.3-11.4-18.4-17-.4-.4-.5-.7-.5-1.2V.1C6.5 6 13 12 19.5 17.9 25.9 12 32.3 6 38.7 0c.1 0 .1.1.2.1.1.2.1.4.1.5v12.5c0 .3-.2.7-.5 1L20.2 31.2c-.2.2-.3.4-.5.6h-.3z"/></svg></a>
+  </div>
+
+  <div class="home-intro__logo-column" data-sr-chain="1" data-sr-order="6" data-sr-play-video="bg-video" data-sr-origin="left" data-sr-viewfactor="0">
+    <div id="home-intro__logo-column-img" data-sr-distance="0" data-sr-chain="1" data-sr-order="7" >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.1 188.5"><path d="M17.3 96c1-2.1 9.6-12.1 10.3-13.2.7-1.1-.1-2.4-.1-2.4-4.8-6.5-7.8-12.2-7.8-20.9 0-10.9 5.2-21 12.3-28.1 6-6 10.1-10 21.3-10.8 1.6-.1 4.8-.8 6.5-.8 5.3 0 10.4 1.1 15 3l1.9-1.7 10-13.5.5-1.6C78.9 1.6 73.4-.3 61.6 0c-6.8.2-15.2.6-21.4 2.7C36.3 4.1 32 5.6 28.4 8 21 13.2 14.8 20.7 10 27.7 3.3 37.3-.5 46.6.1 59.2c.3 6.3-1 13 3.7 23.2 2.5 5.9 5.4 9.3 9.7 14.1-.1 0 2.7 1.6 3.8-.5zm84.3-74.3c-2.9 3.7-8.7 11-8.7 11s-2.6 2.6-1 3.7c6.3 4.2 7.3 13.9 7.3 23 0 4.9-2.1 9.6-3.4 14.3-.8 2.8-5.4 10.3-9.4 14.2-7.2 7.1-15.7 11.2-26.6 11.2-5.7 0-9.7-1.5-14.6-3.7l-2.3.8s-10 12.7-10.9 13.9c-.9 1.2.4 3 .4 3 8.5 4.7 16.1 5.9 26.6 6 19.6.3 19.2-2.9 27.1-6.8 14-6.9 24.2-18.9 30.1-33.5 3.1-7.7 2.8-12.3 2.8-19.2 0-4.4.8-14.1-2.6-21.7-2.7-7.3-5.5-11.8-10.7-17.5 0 .2-1.2-2.4-4.1 1.3z" fill="#009bda"/><path d="M17.5 181.7H25v6.1H7.8l8.1-23.5H9.2v-5.7h16.2l-7.9 23.1zm19.5 6.1v-29.2h15.5v5.7h-7.6v5.7h5v5.6h-5v6.1h7.6v6.1H37zm39.8 0c-.6-1.3-1-3-1-4.5v-5.2c0-.7-.5-1.5-1.6-1.5h-1.8v11.3h-7.9v-29.2h11.1c3.8 0 7.3 2.4 7.3 6.1v5.3c0 1.4-1 3-3 3.8 2 .8 3.2 2.4 3.2 3.8v5.4c0 1.9.5 3.5 1 4.9h-7.3zm-1.1-22.1c0-.8-.5-1.2-1.4-1.2h-1.9v6.5h1.9c.9 0 1.4-.3 1.4-1.2v-4.1zm29.1 22.8c-5.6 0-9.7-3.3-9.7-7.2v-16.2c0-4 4.1-7.2 9.7-7.2s9.7 3.3 9.7 7.2v16.2c0 4-4.1 7.2-9.7 7.2zm1.7-22.9c0-.8-.7-1.2-1.6-1.2-.9 0-1.6.5-1.6 1.2v15.3c0 .8.7 1.2 1.6 1.2.9 0 1.6-.5 1.6-1.2v-15.3zm-85-20.6h-.6l-.7.2-.2.5v3.7l-.2.2h-.7l-.8-1.1c-1 1-2.3 1.6-4 1.6-3.8 0-6.6-2.6-6.6-5.8v-.7c0-3.4 2.7-6.2 6.9-6.2 1.4 0 2.6.5 3.4 1.2l.8-.8h.7l.2.2v3.7l-.2.2h-.7l-.2-.2c-.7-2-2.2-3.3-4-3.3-2.4 0-3.7 1.9-3.7 5.3 0 3.2 1.4 5.1 3.7 5.1 1.1 0 2.2-.6 2.7-1.4v-1.9l-.2-.5-.7-.2h-.8l-.2-.2v-.7l.2-.2h1.1l1.8.2 1.8-.2h1l.2.2v1.1zm18 5l-.5-.2h-5.4l-2.3-.2-1.8.2h-1.4l-.2-.2v-.7l.2-.2h.9l.7-.2.2-.5v-8.4l-.2-.5-.7-.2h-.9l-.2-.2v-.7l.2-.2h1.4l1.8.2 1.8-.2h1.4l.2.2v.7l-.2.2h-.9l-.7.2-.2.5v8.4l.2.5.7.2h1.9l1.8-.5 1-1 .3-1.6.2-.2h.6l.2.2v4.2l-.1.2zm13.3.1c-4.1 0-7-2.2-7-5.8v-.7c0-3.6 2.9-6.2 7-6.2s7 2.2 7 5.8v.7c0 3.6-3 6.2-7 6.2zm3.8-6.5c0-3.2-1.5-4.8-3.2-5l-.6-.1h-.2l-.6.1c-1.7.2-3.2 1.9-3.2 5v.2c0 3.2 1.5 4.8 3.2 5l.6.1h.2l.6-.1c1.7-.2 3.2-1.9 3.2-5v-.2zm17.6 6.2h-2l-2.3-.2-1.8.2h-1.4l-.2-.2v-.7l.2-.2h.9l.7-.2.2-.5v-8.4l-.2-.5-.7-.2h-.9l-.2-.2v-.7l.2-.2H68l1.8.2 2.3-.2h1.8c2.6 0 4.4 1.2 4.4 2.9 0 1.4-1 2.4-2.7 2.7 2 .3 3.3 1.4 3.3 2.8 0 2-2 3.6-4.7 3.6zm-.8-10.9h-1.2l-.7.2-.2.5v3.1l.1.2h1.9c1.5 0 2.4-.7 2.4-2-.1-1.2-1-2-2.3-2zm-.2 5h-1.9l-.1.2v3.8l.2.5.7.2h1.5c1.6 0 2.5-.9 2.5-2.4 0-1.4-1.1-2.3-2.9-2.3zm25.7 5.9h-1.2l-1.8-.2-1.8.2h-1.6l-.2-.2v-.7l.2-.2h.9l.7-.2.2-.5-.8-1.8-.2-.2h-5.1l-.2.2-.8 1.8.2.5.7.2h.8l.2.2v.7l-.2.2h-1.4l-1.4-.2-1.4.2H84l-.2-.2v-.7l.2-.2h.6l.7-.2.5-.5 4.5-10 .2-.2h.9l1.1-.2.2.2 4.5 10.2.5.5.7.2h.6l.2.2v.7l-.3.2zm-8-9.6l-.2-.8-.2.8-1.9 4.5.1.1h4.1l.1-.1-2-4.5zm24.4 9.8l-.5-.2h-5.4l-2.3-.2-1.8.2H104l-.2-.2v-.7l.2-.2h.9l.7-.2.2-.5v-8.4l-.2-.5-.7-.2h-.9l-.2-.2v-.7l.2-.2h1.4l1.8.2 1.8-.2h1.4l.2.2v.7l-.2.2h-.9l-.7.2-.2.5v8.4l.2.5.7.2h1.9l1.8-.5 1-1 .3-1.6.2-.2h.6l.2.2v4.2l-.2.2z" fill="#fff"/></svg>    </div>
+  </div>
+    
+</section>
+
+
+
+<!---------------------->
+<!-- Timeline Section -->
+<!---------------------->
+
+<section class="section section--home section--fadeinout home-mission" id="mission">
+
+  <style>
+  .section__bg-image{
+    background-image: url('https://www.globalzero.org/wp-content/uploads/2018/09/Paris-Opera_Audience_621-1.jpg');
+  }  
+  </style>
+  <div class="section__bg-image" data-sr-chain="2" data-sr-order="1" data-sr-viewfactor=".4" data-sr-distance="0" data-sr-duration="500" ></div>
+
+
+  <div class="wrapper wrapper--home-section">
+    <div class="home-mission__text">
+            <h1 class="home-section__heading home-section__heading--1"><span data-sr-chain="2" data-sr-order="3">Reaching</span> <strong data-sr-chain="2" data-sr-order="2">Zero</strong></h1>
+      <div data-sr-distance="0" data-sr-chain="2" data-sr-order="4" data-sr-next-link="true">
+        <p>Nuclear weapons threaten every city on the planet with staggering humanitarian, environmental and economic loss. So long as they exist we will never be safe.</p>
+<p>30 years ago, there were 70,300 nuclear weapons on the planet. Today, an estimated 13,410 nuclear weapons remain. By 2030, we could remove all nuclear weapons from military service and consign them to the dustbin of history.</p>
+<p>Working with political leaders, senior military commanders and national security experts from across the political spectrum and in every nuclear-armed region of the world, we are working to achieve historic Global Zero Accords that would ensure that all nuclear weapons are permanently dismantled.</p>
+      </div>
+                  <a data-sr-link='true' data-sr-chain="2" data-sr-order="5" class="section__link roboto" href="https://www.globalzero.org/reaching-zero/">Learn more</a>
+          </div>
+
+    <div data-sr-chain="2" data-sr-order="6" data-sr-distance="0" class="home-timeline">
+      <ol class="home-timeline__items" >
+      
+                  
+          <li data-sr-distance="0" data-sr-chain="2" data-sr-order="7" class="home-timeline__item">
+            <span class="home-timeline__stat bebas">70,300</span>
+            <span class="home-timeline__label">Nuclear weapons in 1986</span>
+          </li>          
+         
+          
+          <li data-sr-distance="0" data-sr-chain="2" data-sr-order="8" class="home-timeline__item">
+            <span class="home-timeline__stat bebas">13,410</span>
+            <span class="home-timeline__label">Nuclear weapons in 2020</span>
+          </li>          
+         
+          
+          <li data-sr-distance="0" data-sr-chain="2" data-sr-order="9" class="home-timeline__item">
+            <span class="home-timeline__stat bebas">0</span>
+            <span class="home-timeline__label">Nuclear weapons in 2030</span>
+          </li>          
+         
+        
+      </ol>
+      <div class="home-timeline__image" id="home-timeline__image">
+        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 549 422"><path fill="currentColor" d="M464 288h85v1h-85z"/><path fill="currentColor" d="M480 299h69v1h-69z"/><path fill="currentColor" d="M438 277h111v1H438z"/><path fill="currentColor" d="M471 310h78v1h-78z"/><path fill="currentColor" d="M480 321h69v1h-69z"/><path fill="currentColor" d="M356 221h193v1H356z"/><path fill="currentColor" d="M434 266h115v1H434z"/><path fill="currentColor" d="M403 244h146v1H403z"/><path fill="currentColor" d="M417 255h132v1H417z"/><path fill="currentColor" d="M376 233h173v1H376z"/><path fill="currentColor" d="M509 399h40v1h-40z"/><path fill="currentColor" d="M495 388h54v1h-54z"/><path fill="currentColor" d="M509 410h40v1h-40z"/><path fill="currentColor" d="M480 332h69v1h-69z"/><path fill="currentColor" d="M530 421h19v1h-19z"/><path fill="currentColor" d="M495 377h54v1h-54z"/><path fill="currentColor" d="M495 355h54v1h-54z"/><path fill="currentColor" d="M480 343h69v1h-69z"/><path fill="currentColor" d="M495 366h54v1h-54z"/><path fill="currentColor" d="M345 188h204v1H345z"/><path fill="currentColor" d="M239 88h310v1H239z"/><path fill="currentColor" d="M164 66h385v1H164z"/><path fill="currentColor" d="M369 210h180v1H369z"/><path fill="currentColor" d="M216 77h333v1H216z"/><path fill="currentColor" d="M102 55h447v1H102z"/><path fill="currentColor" d="M14 11h535v1H14z"/><path fill="currentColor" d="M0 0h549v1H0z"/><path fill="currentColor" d="M32 22h517v1H32z"/><path fill="currentColor" d="M96 33h453v1H96z"/><path fill="currentColor" d="M140 44h409v1H140z"/><path fill="currentColor" d="M307 155h242v1H307z"/><path fill="currentColor" d="M316 166h233v1H316z"/><path fill="currentColor" d="M319 177h230v1H319z"/><path fill="currentColor" d="M345 199h204v1H345z"/><path fill="currentColor" d="M257 99h292v1H257z"/><path fill="currentColor" d="M244 111h305v1H244z"/><path fill="currentColor" d="M254 122h295v1H254z"/><path fill="currentColor" d="M254 133h295v1H254z"/><path fill="currentColor" d="M284 144h265v1H284z"/></svg>      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+
+<!---------------------------------->
+<!-- Responding to Crisis Section -->
+<!---------------------------------->
+
+<section class="sections-container clearfix">
+
+<section class="section section--home">
+  <div class="wrapper wrapper--home-section">
+    
+            <h1 class="home-section__heading home-section__heading--indent-large"><span data-sr-chain="3" data-sr-order="1">Reducing</span> <strong data-sr-chain="3" data-sr-order="2">Risk of Use</strong></h1>
+                    <img data-sr data-sr-distance="0" data-sr-viewfactor=".55" class="section__image section__image--right" src="https://www.globalzero.org/wp-content/uploads/2019/03/NFU-Homepage.png" alt="" />
+            <div data-sr-chain="3" data-sr-order="3" data-sr-distance="0" class="section__text section__text--left">
+      <p>We are at a turning point: The world has never faced so many nuclear flashpoints simultaneously and the risk that nuclear weapons will be used &#8212; intentionally, mistakenly or accidentally &#8212; is the highest it’s been since the height of the Cold War.</p>
+<p>In response to the growing threat of nuclear use, Global Zero launched the global “No First Use” campaign to convince the world’s nine nuclear-armed nations to commit to never using nuclear weapons first. We’re working to strengthen the taboo against nuclear weapons use internationally, reducing reliance on nuclear weapons in national security and setting the stage for the complete elimination of nuclear weapons everywhere.</p>
+      </div>
+      
+
+                  <a data-sr-chain="3" data-sr-order="4" data-sr-link="true" class="section__link section__link--right roboto" href="https://www.globalzero.org/no-first-use/">Learn More</a>
+          
+  </div>
+</section>
+
+
+
+<aside class="section-donate section-donate--full">
+  <div class="wrapper wrapper--medium wrapper--full">
+    <h1 data-sr-chain="donate" data-sr-distance="40px" data-sr-order="1" data-sr-origin="bottom" class="section-donate__heading"><strong>Zero</strong> Nuclear Weapons <strong>Is Possible</strong></h1>
+    <div class="section-donate__options bebas">
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="2" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=5">$5</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="3" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=10">$10</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="4" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=25">$25</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="5" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=50">$50</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="6" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=100">$100</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="7" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020?amount=other">Other</a>
+      <a data-sr-chain="donate" data-sr-duration="200" data-sr-distance="40px" data-sr-order="8" data-sr-origin="bottom" href="https://secure.actblue.com/donate/forward-2020" class="section-donate__btn">Donate</a>
+    </div>
+    
+  </div>
+</aside>
+
+
+
+<!------------------->
+<!-- About Section -->
+<!------------------->
+
+<section class="section section--home">
+  <div class="wrapper wrapper--home-section wrapper--home-section-right">
+        <img data-sr data-sr-distance="0" data-sr-viewfactor=".55" class="section__image section__image--left" src="https://www.globalzero.org/wp-content/uploads/2018/07/img-hp-02.jpg" alt="" >
+        <div class="home-section__text home-section__text--right">
+    <h1 class="home-section__heading home-section__heading--2"><strong data-sr-chain="4" data-sr-order="1">About</strong> <span data-sr-chain="4" data-sr-order="2">Global Zero</span></h1>
+    <div class="section__text" data-sr-distance="0" data-sr-chain="4" data-sr-order="3">
+    <p>Since its launch in Paris in 2008, Global Zero has grown to include hundreds of eminent political, military and civic leaders and hundreds of thousands of engaged citizens globally. By combining cutting-edge policy analysis, backchannel diplomacy, media outreach and public engagement, we&#8217;re blazing a trail for governments to follow &#8212; one that leads to the lasting peace and security of a world without nuclear weapons.</p>
+    </div>
+    
+              <a data-sr-chain="4" data-sr-order="4" data-sr-link="true" class="section__link roboto" href="https://www.globalzero.org/about-us/">Learn more</a>
+        
+    </div>
+    
+  </div>
+</section>
+
+
+
+<!-------------------------->
+<!-- In the News Section --->
+<!-------------------------->
+
+<section class="section section--home">
+  <div class="wrapper wrapper--home-section">
+    <h1 class="home-section__heading home-section__heading--3"><span data-sr-chain="5" data-sr-order="1">In The</span> <strong data-sr-chain="5" data-sr-order="2">News</strong></h1>
+    <div class="home-articles" data-sr-chain="5" data-sr-order="3" data-sr-distance="0"  data-sr-viewfactor=".2">
+
+    
+<article class="article article--hp">
+    
+        <div class="article__image-frame">
+        <img class="article__image article__image--indent" src="https://www.globalzero.org/wp-content/uploads/2020/07/Blair-2-1-1-aspect-ratio-570-320.jpg" alt="" />
+    </div>
+    
+    <h1 class="article__heading">Bruce Blair, leading voice for nuclear arms control, dies at 72</h1>
+    <div class="article__body article__body--indent article__body--border clearfix">
+        <div class="article__meta">
+            <p class="article__date roboto">21 July 2020</p>
+            <p class="article__source roboto">Washington Post</p>
+        </div>
+        <p>In the Washington Post&#8217;s obituary, colleagues of Global Zero co-founder Bruce Blair remember him as “an extraordinary public servant who committed his life to reducing nuclear risks around the world.”</p>
+                <a href="https://www.washingtonpost.com/local/obituaries/bruce-blair-leading-voice-for-nuclear-arms-control-dies-at-72/2020/07/21/07656590-caaa-11ea-91f1-28aca4d833a0_story.html?" class="article__link roboto" target="_blank" rel="noopener">More</a>
+            </div>
+</article>    
+<article class="article article--hp">
+    
+        <div class="article__image-frame">
+        <img class="article__image article__image--indent" src="https://www.globalzero.org/wp-content/uploads/2021/01/Minuteman-III-news-image-aspect-ratio-570-320.jpg" alt="" />
+    </div>
+    
+    <h1 class="article__heading">Hacking the Bomb</h1>
+    <div class="article__body article__body--indent article__body--border clearfix">
+        <div class="article__meta">
+            <p class="article__date roboto">12 January 2021</p>
+            <p class="article__source roboto">Press the Button</p>
+        </div>
+        <p>Global Zero CEO Derek Johnson joins Press the Button to talk presidential nuclear launch authority in the final days of the Trump administration.</p>
+                <a href="https://www.ploughshares.org/pressthebutton" class="article__link roboto" target="_blank" rel="noopener">More</a>
+            </div>
+</article>          
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+</section> <!-- .sections-container -->
+
+<footer id="site-footer" class="site-footer clearfix">
+<div class="wrapper wrapper--full wrapper--footer">
+  <div class="site-footer__logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 245.3"><path d="M35.8 197.8c2.1-4.2 19.7-24.9 21.1-27.4 1.4-2.4-.3-4.8-.3-4.8-9.7-13.5-16.3-24.9-16.3-42.9 0-22.5 10.7-43.3 25.3-57.8 12.5-12.5 20.8-20.4 44-22.2 3.5-.3 10-1.7 13.5-1.7 11.1 0 21.5 2.1 30.8 6.2l4.2-3.5L178.5 16l1-3.5c-17-9-28.4-12.8-52.6-12.5-14.2.3-31.5 1.4-44 5.5-8 2.8-17 5.9-24.2 11.1C43 27 30.6 42.6 20.5 56.8 6.7 76.6-.9 96 .1 121.9c.7 12.8-2.1 27 7.6 47.8 5.2 12.1 11.1 19.1 19.7 29.1.4 0 5.9 3.2 8.4-1zM209.3 44.7c-5.9 7.6-18 22.5-18 22.5s-5.2 5.5-2.1 7.6c13.2 8.7 14.9 28.4 14.9 47.1 0 10-4.2 19.7-6.9 29.4-1.7 5.9-11.1 21.5-19.4 29.4-14.9 14.5-32.2 23.2-54.7 23.2-11.8 0-20.1-3.1-30.1-7.6l-4.8 1.7s-20.4 26-22.5 28.4c-1.7 2.4.7 6.2.7 6.2 17.7 9.7 33.3 12.1 54.7 12.5 40.2.7 39.5-5.9 55.8-13.9 28.7-14.2 49.9-39.1 62-68.9 6.2-15.9 5.9-25.3 5.9-39.5 0-9 1.7-29.1-5.5-44.7-5.5-15.2-11.4-24.2-22.2-36 .9.5-1.9-5-7.8 2.6z" fill="#009bda"/><path d="M319.4 178.4h21.5v17.7h-49.2l23.2-67.2h-19.1v-16.3h46.4l-22.8 65.8zm56.2 17.7v-83.8h44.3v16.3h-21.8v16.3h14.2v15.9h-14.2v17.3h21.8v17.7h-44.3v.3zm113.6 0c-1.7-3.8-2.8-8.7-2.8-12.8v-14.9c0-1.7-1.7-4.5-4.8-4.5h-5.2v32.2h-22.5v-83.8h31.9c10.7 0 21.1 6.9 21.1 17.3v14.9c0 3.8-2.8 8.7-8.7 10.7 5.9 2.1 9 6.9 9 10.7v15.6c0 5.2 1.4 10 2.8 13.9h-20.8v.7zm-3.2-63.4c0-2.4-1.4-3.5-3.8-3.5h-5.5v18.7h5.5c2.4 0 3.8-1 3.8-3.5v-11.7zm83.2 65.4c-15.9 0-27.7-9.4-27.7-20.8v-46.4c0-11.4 11.8-20.8 27.7-20.8 15.9 0 27.7 9.4 27.7 20.8v46.4c0 11.5-11.8 20.8-27.7 20.8zm4.8-65.8c0-2.1-2.1-3.5-4.8-3.5s-4.8 1.4-4.8 3.5V176c0 2.1 2.1 3.5 4.8 3.5s4.8-1.4 4.8-3.5v-43.7zM330.9 73.5h-1.7l-2.1.7-.7 1.4v10.7l-.7.7h-2.1l-2.4-3.1c-2.8 2.8-6.6 4.5-11.4 4.5-11.1 0-18.7-7.3-18.7-16.6v-2.1c0-9.7 7.6-17.7 19.7-17.7 3.8 0 7.3 1.4 9.7 3.5l2.4-2.4h2.1l.7.7v10.7l-.7.7h-2.1l-.7-.7c-2.1-5.9-6.2-9.4-11.4-9.4-6.9 0-10.7 5.5-10.7 15.2 0 9 3.8 14.5 10.7 14.5 3.1 0 6.2-1.7 7.6-3.8v-5.5l.3-1.4-2.1-.7h-2.4l-.3-.7v-2.1l.7-.7h3.1l5.2.7 5.2-.7h2.8l.7.7v2.1l-.7.8zm51.6 14.2l-1.4-.7h-15.6l-6.6-.7-5.2.7h-3.8l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7h-2.4l-.7-.7v-2.1l.7-.7h3.8l5.2.7 5.2-.7h3.8l.7.7v2.8l-.7.7h-2.4l-2.1.7-.7 1.4v23.9l1 1 2.1.7h5.5l5.2-1.4 2.8-2.8 1-4.5.7-.7h1.7l.7.7v12.1l-.9.5zm38.1.3c-11.8 0-20.1-6.2-20.1-16.6v-2.1c0-10.4 8.3-17.7 20.1-17.7s20.1 6.2 20.1 16.6v2.1c0 10.4-8.7 17.7-20.1 17.7zm10.7-18.4c0-9-4.2-13.9-9-14.2l-1.7-.3h-.7l-1.7.3c-4.8.7-9 5.2-9 14.2v.7c0 9 4.2 13.9 9 14.2l1.7.3h.7l1.7-.3c4.8-.7 9-5.2 9-14.2v-.7zM481.5 87h-5.9l-6.6-.7-5.2.7H460l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7H460l-.7-.7v-2.1l.7-.7h3.8l5.2.7 6.6-.7h5.2c7.3 0 12.5 3.5 12.5 8.3 0 3.8-2.8 6.9-7.6 7.6 5.9 1 9.4 3.8 9.4 8 0 7-5.9 11.2-13.6 11.2zm-2-30.9H476l-2.1.7-.7 1.4v9l.3.7h5.5c4.2 0 6.9-2.1 6.9-5.5-.2-4.2-2.6-6.3-6.4-6.3zm-.4 14.2h-5.5l-.3.7v10.7l.7 1.4 2.1.7h4.2c4.5 0 7.3-2.4 7.3-6.9-.5-4.1-3.6-6.6-8.5-6.6zM552.5 87H549l-5.2-.7-5.2.7h-4.5l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4-2.4-5.2-.7-.7h-14.5l-.7.7-2.4 5.2.7 1.4 2.1.7h2.4l.7.7v2.4l-.7.7h-4.2l-3.8-.7-3.8.7h-2.4l-.7-.7v-2.1l.7-.7h1.7l2.1-.7 1.4-1.4 12.8-28.4.7-.7h2.4l3.1-.7.7.7 12.8 29.1 1.4 1.4 2.1.7h1.7l.7.7v2.1l-.7.4zm-23.2-27.1l-.7-2.4-.7 2.4-5.5 12.8.3.3h11.8l.3-.3-5.5-12.8zm70 27.8l-1.4-.7h-15.6l-6.6-.7-5.2.7h-3.8l-.7-.7v-2.1l.7-.7h2.4l2.1-.7.7-1.4V57.5l-.7-1.4-2.1-.7h-2.4l-.7-.7v-2.1l.7-.7h3.8l5.2.7 5.2-.7h3.8l.7.7v2.8l-.7.7h-2.4l-2.1.7-.7 1.4v23.9l.7 1.4 2.1.7h5.5l5.2-1.4 2.8-2.8 1-4.5.7-.7h1.7l.7.7v12.1h-.6z" fill="#fff"/></svg>
+    <div class="site-footer__credit">
+      <span>design by</span><img src="https://www.globalzero.org/wp-content/themes/globalzero-theme/images/logo-provoc-text.png" alt="Provoc">
+    </div>
+  </div>
+  <nav class="site-footer__nav">
+  <ul id="menu-main-menu" class="site-footer__links--1"><li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-137"><a href="https://www.globalzero.org/reaching-zero/">Reaching Zero</a>
+<ul class="sub-menu">
+	<li id="menu-item-2784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2784"><a href="https://www.globalzero.org/reaching-zero/">Global Zero Action Plan</a></li>
+	<li id="menu-item-4954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4954"><a href="https://www.globalzero.org/no-first-use/">Support No First Use</a></li>
+	<li id="menu-item-4576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4576"><a href="https://www.globalzero.org/blundering-toward-nuclear-chaos-2020/">Blundering Toward Nuclear Chaos</a></li>
+	<li id="menu-item-1963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1963"><a href="https://www.globalzero.org/the-end-of-nuclear-warfighting/">&#8220;Alt&#8221; Nuclear Posture Review</a></li>
+	<li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007"><a href="https://www.globalzero.org/de-alerting/">Hair-Trigger Alert</a></li>
+	<li id="menu-item-1962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1962"><a href="https://www.globalzero.org/reaching-zero/nato-russia-tactical-nuclear-weapons/">Tactical Nuclear Weapons</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://www.globalzero.org/reaching-zero/reports/">Reports and Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-149"><a href="https://www.globalzero.org/crisis-response/">Crisis Response</a>
+<ul class="sub-menu">
+	<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://www.globalzero.org/crisis-response/nuclear-crisis-group/">Nuclear Crisis Group</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://www.globalzero.org/crisis-response/nuclear-flashpoints/">Nuclear Flashpoints</a></li>
+	<li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287"><a href="https://www.globalzero.org/crisis-response/ncg-recommendations/">Steps to De-Escalate</a></li>
+	<li id="menu-item-4214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4214"><a href="https://www.globalzero.org/crisis-response/military-incidents-project/">Military Incidents Project</a></li>
+</ul>
+</li>
+<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-556"><a href="https://www.globalzero.org/about-us/">About us</a>
+<ul class="sub-menu">
+	<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="https://www.globalzero.org/about-us/our-mission/">Our Mission</a></li>
+	<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://www.globalzero.org/about-us/movement-leaders/">Movement Leaders</a></li>
+	<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-558"><a href="https://www.globalzero.org/about-us/team/">The Team</a></li>
+</ul>
+</li>
+<li id="menu-item-2058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2058"><a href="https://www.globalzero.org/media/">Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-2059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2059"><a href="https://www.globalzero.org/media/in-the-news/">In the News</a></li>
+	<li id="menu-item-2060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2060"><a href="https://www.globalzero.org/media/press-releases/">Press Releases</a></li>
+	<li id="menu-item-2307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2307"><a href="https://www.globalzero.org/updates/">Blog</a></li>
+</ul>
+</li>
+</ul>
+  <div class="site-footer__secondary">
+    <div class="site-footer__social-links clearfix">
+      
+<a href="https://www.facebook.com/GlobalZero" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h127.8V163.5h-34.8v-40.3h34.8V93.6c0-34.5 21.1-53.2 51.8-53.2 14.7 0 27.4 1.1 31.1 1.6v36h-21.3c-16.7 0-20 7.9-20 19.6v25.7H224l-5.2 40.3h-34.7V267h68c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7z" fill="currentColor"/></svg></a>
+
+<a href="https://twitter.com/globalzero" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h237.4c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7zm-45.6 94.9c.1 1.6.1 3.2.1 4.8 0 49.1-37.4 105.7-105.7 105.7-21 0-40.5-6.1-56.9-16.7 2.9.3 5.9.5 8.9.5 17.4 0 33.4-5.9 46.1-15.9-16.2-.3-30-11-34.7-25.8 2.3.4 4.6.7 7 .7 3.4 0 6.7-.5 9.8-1.3-17-3.4-29.8-18.4-29.8-36.4v-.5c5 2.8 10.7 4.5 16.8 4.6-10-6.7-16.5-18-16.5-30.9 0-6.8 1.8-13.2 5-18.7 18.3 22.5 45.7 37.2 76.5 38.8-.6-2.7-1-5.6-1-8.5 0-20.5 16.6-37.1 37.1-37.1 10.7 0 20.3 4.5 27.1 11.7 8.5-1.7 16.4-4.8 23.6-9-2.8 8.7-8.7 15.9-16.3 20.5 7.5-.9 14.7-2.9 21.3-5.8-4.9 7.6-11.2 14.1-18.4 19.3z" fill="currentColor"/></svg></a>
+
+<a href="https://www.youtube.com/user/globalzerochannel" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path fill="currentColor" d="M145.7 165v-21.7h-12.2l-.1 74.9 10.1-.1.9-4.7c12.9 11.8 21 3.7 20.9-10.4v-29.2c0-11.1-8.3-17.8-19.6-8.8zm10.5 40.1c0 2.4-2.4 4.4-5.4 4.4-2.9 0-5.4-2-5.4-4.4v-32.8c0-2.4 2.4-4.4 5.4-4.4 3 0 5.4 2 5.4 4.4v32.8zM96.8 153.1v-9.8H57.6v9.5l12.2.1v65.9h12.3v-65.7zM131.3 100.9c3 0 5.4-2.7 5.4-6V64c0-3.3-2.4-6-5.4-6-3 0-5.4 2.7-5.4 6v30.9c0 3.3 2.4 6 5.4 6z"/><path fill="currentColor" d="M113.9 162.8v35.1c0 5.1.3 7.6 0 8.5-1 2.7-5.5 5.6-7.2.3-.3-.9 0-3.7 0-8.6v-35.3H94.4v34.8c0 5.3-.1 9.3 0 11.1.3 3.2.2 6.9 3.2 9 5.5 4 16.1-.6 18.7-6.3v7.2h9.8v-55.9h-12.2zM194.5 199.2v6.3c0 2.7-2.3 5-5 5h-1.8c-2.8 0-5-2.2-5-5V192.1h21v-7.9c0-5.8-.1-11.6-.6-14.9-1.5-10.5-16.2-12.1-23.6-6.8-2.3 1.7-4.1 3.9-5.1 6.9-1 3-1.6 7.1-1.6 12.3v17.4c0 28.9 35.2 24.9 31 0l-9.3.1zm-11.6-23.5c0-3 2.5-5.4 5.5-5.4h.7c3 0 5.5 2.5 5.5 5.4l-.1 6.7h-11.6v-6.7z"/><path fill="currentColor" d="M252.2 0H14.7C6.6 0 0 6.6 0 14.7v237.4c0 8.1 6.6 14.7 14.7 14.7h237.4c8.1 0 14.7-6.6 14.7-14.7V14.7c.1-8.1-6.5-14.7-14.6-14.7zm-97.1 50.6h11.2v45.2c0 2.4 2 4.5 4.5 4.5s4.5-2 4.5-4.5V50.6h10.8v58.1h-13.7l.2-4.8c-.9 2-2.1 3.4-3.4 4.4-1.4 1-2.9 1.5-4.7 1.5-2 0-3.7-.5-5-1.4-1.3-.9-2.3-2.2-2.9-3.7-.6-1.6-1-3.2-1.2-4.8-.1-1.7-.2-5-.2-10V50.6zm-33.5.6c2.4-1.9 5.5-2.9 9.3-2.9 3.2 0 5.9.6 8.1 1.8 2.3 1.2 4 2.8 5.2 4.8 1.2 2 2.1 4 2.5 6 .5 2.1.7 5.3.7 9.5v14.7c0 5.4-.2 9.4-.6 11.9-.4 2.5-1.3 4.9-2.7 7.1-1.4 2.2-3.1 3.8-5.3 4.8-2.2 1-4.6 1.6-7.4 1.6-3.1 0-5.7-.4-7.9-1.3s-3.8-2.2-5-4c-1.2-1.8-2.1-4-2.6-6.5s-.8-6.4-.8-11.5V71.8c0-5.6.5-9.9 1.4-13.1 1-3.1 2.6-5.6 5.1-7.5zM85.8 27.7L94 56.1l8.1-28.4h14.1L101 65.9v44.6H88.1L88 66 71.8 27.7h14zM221.6 212c0 15-13 27.2-28.8 27.2H74.2c-15.9 0-28.8-12.2-28.8-27.2v-62.4c0-15 13-27.2 28.8-27.2h118.6c15.9 0 28.8 12.2 28.8 27.2V212z"/></svg></a>
+    </div>
+
+    <div class="site-footer__links--2">
+            <a href="https://www.globalzero.org/donate/">Donate</a>
+            <a href="https://www.globalzero.org/become-a-global-zero-member/">Become a Global Zero Member</a>
+            <a href="https://www.globalzero.org/contact-us/">Contact Us</a>
+            <a href="https://www.globalzero.org/careers/">Work @ GZ</a>
+            <a href="https://www.globalzero.org/privacy/">Privacy</a>
+        </div>
+  </div>
+  
+
+    <a href="https://secure.actblue.com/donate/forward-2020" target="_blank" rel="noopener noreferrer" class="sticky-link bebas"><span>Donate</span></a>
+    
+  </nav>
+
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P82MQGR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.globalzero.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/plugins/better-wp-security/core/modules/wordpress-tweaks/js/blankshield/blankshield.min.js?ver=4121' id='blankshield-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/plugins/better-wp-security/core/modules/wordpress-tweaks/js/block-tabnapping.min.js?ver=4121' id='itsec-wt-block-tabnapping-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/themes/globalzero-theme/js/an.js?ver=1595957190' id='an-subscribe-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-content/themes/globalzero-theme/js/scripts.js?ver=1595957191' id='gz-scripts-js'></script>
+<script type='text/javascript' src='https://www.globalzero.org/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+
+</div><!-- end .body-wrap -->
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 26/365 objects using memcached
+Page Caching using memcached 
+
+Served from: www.globalzero.org @ 2021-01-15 18:00:07 by W3 Total Cache
+-->
