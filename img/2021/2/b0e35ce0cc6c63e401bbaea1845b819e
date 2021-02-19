@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>traitshifter – Who are you today?</title>
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="traitshifter" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Who are you today?" />
+<meta property="og:description" content="Who are you today?" />
+<link rel="canonical" href="https://msirringhaus.github.io/" />
+<meta property="og:url" content="https://msirringhaus.github.io/" />
+<meta property="og:site_name" content="traitshifter" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="traitshifter" />
+<script type="application/ld+json">
+{"description":"Who are you today?","@type":"WebSite","headline":"traitshifter","url":"https://msirringhaus.github.io/","name":"traitshifter","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta property="og:description" content="Who are you today?" />
+    
+    <meta name="author" content="traitshifter" />
+
+    
+
+    
+    <meta property="og:image" content="https://msirringhaus.github.io"/>
+    <meta property="twitter:image" content="https://msirringhaus.github.io"/>
+    
+    <meta property="og:site_name" content=""/>
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="traitshifter - Who are you today?" href="/feed.xml" />
+    <link rel="canonical" href="https://msirringhaus.github.io/" />
+
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  </head>
+
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="/" class="site-avatar"><img src="" alt="" /></a>
+
+            <div class="site-info">
+              <h1 class="site-name"><a href="/">traitshifter</a></h1>
+              <p class="site-description">Who are you today?</p> 
+            </div>
+
+            <nav>
+              <a href="/">Home</a>
+              <a href="/search">Search</a>
+              <a href="/about">About</a>
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          <div class="posts">
+  
+    <article class="post">
+      <a href="/Where-everything-went-wrong/">
+        <h1>Where everything went wrong...</h1>
+
+        <div>
+          <p class="post_date">February  9, 2020</p>
+        </div>
+      </a>
+      <div class="entry">
+        <p><strong>Today you are frustrated.</strong></p>
+
+
+      </div>
+
+      <a href="/Where-everything-went-wrong/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+      <a href="/Cats,Blogs,RocknRoll/">
+        <h1>Cats, Blogs and Rock'n'Roll</h1>
+
+        <div>
+          <p class="post_date">February  4, 2020</p>
+        </div>
+      </a>
+      <div class="entry">
+        <p><strong>Today you are a wannabe rock star blogger.</strong></p>
+
+
+      </div>
+
+      <a href="/Cats,Blogs,RocknRoll/" class="read-more">Read More</a>
+    </article>
+  
+
+  <!-- pagination -->
+  
+</div>
+
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            
+
+
+
+<a href="https://github.com/msirringhaus"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+
+
+
+
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
