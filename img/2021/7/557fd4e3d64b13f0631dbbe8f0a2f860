@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Threema - Secure and Private Messenger</title><link rel="stylesheet" href="https://static.threema.ch/fonts/labgrotesque.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="Threema is the messenger that puts security and privacy first. No other chat service offers a similar level of security and privacy."/>
+<meta name="apple-itunes-app" content="app-id=578665578, affiliate-data=10lJMu"/>
+<meta name="google-play-app" content="app-id=ch.threema.app"/>
+<meta property="og:image" content="https://threema.ch/images/logo-big.png"/>
+<meta property="og:image:secure_url" content="https://threema.ch/images/logo-big.png"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="alternate" hreflang="de" href="/de"/>
+<link rel="alternate" hreflang="en" href="/en"/>
+<link rel="alternate" hreflang="fr" href="/fr"/>
+<link rel="stylesheet" href="/cache/threema_website_threema.css?v=57" type="text/css"/>
+<script src="/cache/threema_website_threema.js?v=57"></script></head><body><div id="ios-wrapper"><header class="header"><nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light bg-white border-bottom"><div class="container-fluid"><a class="navbar-brand" href="/en"><img alt="Threema." class="thr-logo" src="/images/logo.svg"/></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse"><span class="navbar-toggler-icon"></span></button><div class="nav-top"><div class="nav-lang nav-dropdown dropdown"><div class="nav-dropdown-btn nav-dropdown-btn--lang dropdown-toggle thr-textIcon thr-textIcon--small thr-textIcon--right thr-textIcon--chevronDown" data-toggle="dropdown">en</div><div class="nav-dropdown-menu dropdown-menu"><a class="nav-dropdown-item nav-dropdown-item--small" href="/de"><span class="nav-dropdown-itemTitle nav-dropdown-itemTitle--small">Deutsch</span></a><a class="nav-dropdown-item nav-dropdown-item--small nav-dropdown-item--active" href="/en"><span class="nav-dropdown-itemTitle nav-dropdown-itemTitle--small">English</span></a><a class="nav-dropdown-item nav-dropdown-item--small" href="/fr"><span class="nav-dropdown-itemTitle nav-dropdown-itemTitle--small">Français</span></a></div></div><div class="nav-dropdown dropdown"><button class="thr-btn-transparent nav-dropdown-btn dropdown-toggle thr-textIcon thr-textIcon--small thr-textIcon--right thr-textIcon--chevronDown" data-toggle="dropdown">Products</button><div class="nav-dropdown-menu dropdown-menu"><a class="nav-dropdown-item nav-dropdown-item--active" href="/en"><span class="nav-dropdown-itemTitle">Threema</span><span class="nav-dropdown-itemDesc">For private users</span></a><a class="nav-dropdown-item" href="/en/work"><span class="nav-dropdown-itemTitle">Threema Work</span><span class="nav-dropdown-itemDesc">For organizations</span></a><a class="nav-dropdown-item" href="https://work.threema.ch/en/education"><span class="nav-dropdown-itemTitle">Threema Education</span><span class="nav-dropdown-itemDesc">For educational institutions</span></a><a class="nav-dropdown-item" href="/en/onprem"><span class="nav-dropdown-itemTitle">Threema OnPrem</span><span class="nav-dropdown-itemDesc">Self-hosted enterprise messaging</span></a><a class="nav-dropdown-item" href="https://broadcast.threema.ch/en"><span class="nav-dropdown-itemTitle">Threema Broadcast</span><span class="nav-dropdown-itemDesc">Top-down communication</span></a><a class="nav-dropdown-item" href="https://gateway.threema.ch/en"><span class="nav-dropdown-itemTitle">Threema Gateway</span><span class="nav-dropdown-itemDesc">Integration into your software</span></a></div></div></div><div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"><div class="navbar-collapse-top"><a class="navbar-brand" href="/en"><img alt="Threema." class="thr-logo" src="/images/logo.svg"/></a><button type="button" class="nav-subNav-close" data-toggle="collapse"></button><button type="button" class="navbar-toggler collapsed navbar-close-btn" data-toggle="collapse" data-target=".navbar-collapse"><div class=""></div></button></div><ul class="navbar-nav"><li class="nav-item thr-functions" data-key="functions"><a class="nav-link" href="/en/features">Features</a></li><li class="nav-item thr-securty" data-key="securty"><a class="nav-link" href="/en/security">Security</a></li><li class="nav-item thr-about" data-key="about"><a class="nav-link" href="/en/about">About</a></li><li class="nav-item thr-downloads" data-key="downloads"><a class="nav-link" href="/en/download">Download</a></li><li class="nav-item thr-support" data-key="support"><a class="nav-link" href="/en/support">Support</a></li><li class="nav-item thr-blog" data-key="blog"><a class="nav-link" href="/en/blog">Blog</a></li></ul><div class="nav-actions"></div><div class="navbar-bottom"><div class="nav-item" data-key="products"><div class="nav-link" title="Products">Products</div></div></div><div class="navbar-bottom navbar-bottom--light"><div class="nav-item" data-key="language"><div class="nav-link thr-textIcon thr-textIcon--left thr-textIcon--globe">English</div></div></div></div></div></nav><div class="nav-subNav navbar-expand-md"><div class="container-fluid"><ul class="navbar-subNav navbar-nav" data-key="products"><li class="nav-item thr-threema active nav-item--subNav" data-key="threema"><a class="nav-link" href="/en"><span class="nav-link-title">Threema</span><span class="nav-link-desc">For private users</span></a></li><li class="nav-item thr-work nav-item--subNav" data-key="work"><a class="nav-link" href="/en/work"><span class="nav-link-title">Threema Work</span><span class="nav-link-desc">For organizations</span></a></li><li class="nav-item thr-education nav-item--subNav" data-key="education"><a class="nav-link" href="https://work.threema.ch/en/education"><span class="nav-link-title">Threema Education</span><span class="nav-link-desc">For educational institutions</span></a></li><li class="nav-item thr-onPrem nav-item--subNav" data-key="onPrem"><a class="nav-link" href="/en/onprem"><span class="nav-link-title">Threema OnPrem</span><span class="nav-link-desc">Self-hosted enterprise messaging</span></a></li><li class="nav-item thr-broadcast nav-item--subNav" data-key="broadcast"><a class="nav-link" href="https://broadcast.threema.ch/en"><span class="nav-link-title">Threema Broadcast</span><span class="nav-link-desc">Top-down communication</span></a></li><li class="nav-item thr-gateway nav-item--subNav" data-key="gateway"><a class="nav-link" href="https://gateway.threema.ch/en"><span class="nav-link-title">Threema Gateway</span><span class="nav-link-desc">Integration into your software</span></a></li></ul><ul class="navbar-subNav navbar-nav" data-key="language"><div class="nav-item" data-key="products"><a class="nav-link" href="/de" title="Deutsch">Deutsch</a></div><div class="nav-item active" data-key="products"><a class="nav-link" href="/en" title="English">English</a></div><div class="nav-item" data-key="products"><a class="nav-link" href="/fr" title="Français">Français</a></div></ul></div></div></header><main role="main"><div class="thr-teaserBanner"><div class="container-fluid"><p class="thr-teaserBanner-text thr-textIcon thr-textIcon--right thr-textIcon--chevronRightWhite"><a href="/en/messenger-comparison" title="Messener comparison">How does Threema stack up against other popular messengers?</a></p></div></div><div class="thr-section thr-title-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-7 col-md-6 offset-md-1 offset-lg-0 mb-3">
+				<h1 class="thr-main-title text-center text-md-left">The messenger that puts security and privacy first.</h1>
+				<div class="thr-bar-divider mx-auto mx-md-0"></div>
+				<h4 class="text-secondary-gray600 pb-3 text-center text-md-left">
+					Pay once, chat forever.<br/>No collection of user data. Open Source.</h4>
+			</div>
+			<div class="col-md-5 mb-3">
+				<div class="thr-img-bottom">
+					<div class="thr-device thr-device-small thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							<img src="/images/screenshots/android-group-chat.webp"
+								 data-nowebp="/images/screenshots/android-group-chat.jpg"/>
+						</div>
+					</div>
+				</div>
+				<div class="thr-img-top">
+					<div class="thr-device thr-device-small thr-device-ios thr-device-dark">
+						<span class="thr-device-notch"></span>
+						<div>
+							<img src="/images/screenshots/ios-conversations.webp"
+								 data-nowebp="/images/screenshots/ios-conversations.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-7 col-md-6 offset-md-1 offset-lg-0 mb-3">
+				<div class="text-center text-md-left">
+					<a class="sprite-button sp-pub-b-itunes"
+					   href="https://itunes.apple.com/app/threema/id578665578?mt=8&uo=4&at=10lJMu"></a>
+					<a class="sprite-button sp-pub-b-gplay"
+					   href="https://play.google.com/store/apps/details?id=ch.threema.app"></a>
+					<a class="sprite-button sp-pub-b-appGallery"
+					   href="https://appgallery.huawei.com/#/app/C103713829"></a>
+				</div>
+				<div class="text-center text-md-left mt-4">
+					<a class="thr-btn-secondary thr-btn--widthFixedM" href="https://web.threema.ch/">Threema Web</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="thr-section thr-work-section thr-single-box-content thr-single-box-content--highlight">
+	<div class="container-fluid">
+		<div class="wrapper wrapper--highlight">
+			<h2 class="thr-subtitle">Threema for Organizations</h2>
+			<div class="thr-bar-divider thr-bar-divider--highlight mx-auto"></div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<p class="text-secondary-gray600">
+						Just like email, instant messaging has become an integral part of everyday work life. Threema Work is the secure and privacy-compliant messaging solution for organizations of all types and sizes. It’s used for both internal and external communication by large corporations and small to medium-sized enterprises, government agencies and police forces, hospitals and blue light organizations as well as NGOs and educational institutions.
+					</p>
+				</div>
+			</div>
+			<div>
+				<a href="/en/work"
+				   class="thr-btn thr-btn--highlight nw mb-3 mr-md-2 thr-btn--widthFixedL">Threema Work</a>
+				<a href="https://work.threema.ch/en/education"
+				   class="thr-btn-secondary thr-btn-secondary--highlight thr-btn--widthFixedL mb-3 mr-md-2 nw">Threema Education</a>
+				<a href="/en/onprem"
+				   class="thr-btn-secondary thr-btn-secondary--highlight thr-btn--widthFixedL mb-3 nw">Threema OnPrem</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="thr-section thr-description-section">
+	<div class="container-fluid">
+		<div class="wrapper">
+			<div class="row text-center justify-content-center">
+				<div class="col-10 col-md-5">
+					<span class="sp-pub-i-LockFingerprint thr-sprite-icon"></span>
+					<div class="thr-bar-divider mx-auto"></div>
+
+					<h4 class="">Guaranteed Privacy, Strong Encryption, Open Source</h4>
+					<p class="text-secondary-gray600">Threema is the instant messenger designed to generate as little user data as possible. All communication is end-to-end encrypted, and the app is open source.</p>
+				</div>
+				<div class="col-10 col-md-5">
+					<span class="sp-pub-i-UserQuestionmark thr-sprite-icon"></span>
+					<div class="thr-bar-divider mx-auto"></div>
+
+					<h4 class="">Chat Anonymously: No Phone Number Required</h4>
+					<p class="text-secondary-gray600">
+						Each user generates a random Threema ID when setting up the app. Linking a phone number or email address is optional.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<a href="/en/security" class="thr-btn">More about security</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="wrapper">
+			<div class="row text-center justify-content-center">
+				<div class="col-10 col-md-5">
+					<span class="sp-pub-i-HandManager thr-sprite-icon"></span>
+					<div class="thr-bar-divider mx-auto"></div>
+
+					<h4 class="">No Collection of User Data, No Ads</h4>
+					<p class="text-secondary-gray600">
+						Services that are financed by advertising collect user data in order to target their ads. Threema is not financed by advertising and does not collect user data.
+					</p>
+				</div>
+				<div class="col-10 col-md-5">
+					<span class="sp-pub-i-EUCH thr-sprite-icon"></span>
+					<div class="thr-bar-divider mx-auto"></div>
+
+					<h4 class="">100% Swiss Made and GDPR-compliant</h4>
+
+					<p class="text-secondary-gray600">
+						Threema is a true Swiss company hosting its own servers in Switzerland. From software development to customer support, everything is done in-house. The service is fully GDPR-compliant.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<a href="/en/about" class="thr-btn">
+						More about us</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="thr-section thr-carousel-section">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 col-10 mb-3">
+				<h1 class="text-center">Versatile Features, No Gimmicks</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="carouselIndicators" class="thr-function-carousel">
+		<div class="thr-os-tab">
+			<div id="slider-android-btn" class="thr-os active">Android</div>
+			<div id="slider-ios-btn" class="thr-os">iOS</div>
+		</div>
+		<div class="slick thr-slider">
+			<div>
+                <span>
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" src="/images/pixel.png"
+								  data-src="/images/slider/android/screen1.webp" alt="Converstations"/>
+						</div>
+					</div>
+                </span>
+			</div>
+			<div>
+                <span>
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" src="/images/pixel.png"
+								  data-src="/images/slider/android/screen2.webp" alt="Group chat"/>
+						</div>
+					</div>
+                </span>
+			</div>
+			<div>
+                <span>
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" src="/images/pixel.png"
+								  data-src="/images/slider/android/screen3.webp" alt="Single chat"/>
+						</div>
+					</div>
+                </span>
+			</div>
+			<div>
+                <span>
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" src="/images/pixel.png"
+								  data-src="/images/slider/android/screen4.webp" alt="Contact detail"/>
+						</div>
+					</div>
+                </span>
+			</div>
+			<div>
+                <span>
+
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" src="/images/pixel.png"
+								  data-src="/images/slider/android/screen5.webp" alt="Poll "/>
+						</div>
+					</div>
+                </span>
+			</div>
+			<div>
+                <span>
+
+	                <div class="thr-device thr-device-medium thr-device-android">
+						<span class="thr-device-notch"></span>
+						<div>
+							 <img class="imgscreen" data-src="/images/slider/android/screen6.webp" alt="Video call"/>
+						</div>
+					</div>
+                </span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 col-md-10 mb-3 text-center">
+				<a href="/en/features" class="thr-btn">More about the features</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="thr-section thr-video-section">
+	<div class="container-fluid">
+		<div class="row justify-content-center justify-content-md-start">
+			<div class="col-10 offset-md-1 col-md-4 offset-lg-0 col-lg-5 order-1 order-md-0">
+				<h2 class="text-center text-md-left">Privacy Is Worth Paying For</h2>
+				<div class="text-secondary-gray600 text-center text-md-left"><p>There is no such thing as a free lunch. If you don’t pay with money for a service, you pay with your data instead.</p><p>Find out how Threema stacks up against other messengers like WhatsApp, Signal, or Telegram in the comprehensive messenger comparison.</p>
+				</div>
+				<div class="text-center text-md-left mt-4">
+					<a href="/en/messenger-comparison" class="thr-btn-secondary">To the messenger comparison</a>
+				</div>
+			</div>
+			<div class="col-10 col-md-7 order-0 order-md-1">
+				<div class="embed-responsive embed-responsive-16by9">
+					<video class="embed-responsive" poster="/content/video/threema_poster.jpg" controls preload="none">
+						<source src="/content/video/threema.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="thr-section thr-business-solution-section">
+	<div class="container-fluid">
+		<div class="row text-center justify-content-center">
+			<div class="col-10 col-lg-8">
+				<h1 class="">Business Solutions</h1>
+				<div class="thr-bar-divider mx-auto"></div>
+				<p class="text-secondary-gray600 thr-business-solution-desc">Everything you need for encrypted messaging in your organization.</p>
+			</div>
+		</div>
+		<div class="row text-center justify-content-center">
+			<div class="col-10 col-md-5 thr-business-solution-section-item">
+				<h4>Threema Work</h4>
+				<p class="text-secondary-gray600">The secure enterprise messaging solution offers convenient user management, extensive app configuration options and many other features tailored to the needs of organizations.</p>
+				<p>
+					<a href="/en/work" class="thr-btn thr-btn--widthFixedL">Learn more</a>
+				</p>
+				<p>
+					<a href="https://work.threema.ch/en/education" class="thr-btn-secondary thr-btn--widthFixedL">Threema Education</a>
+				</p>
+			</div>
+			<div class="col-10 col-md-5 thr-business-solution-section-item">
+				<h4>Threema OnPrem</h4>
+				<p class="text-secondary-gray600">Maximum security and total data ownership with Threema's self-hosting solution for enterprises.</p>
+				<a href="/en/onprem" class="thr-btn thr-btn--widthFixedL">Learn more</a>
+			</div>
+			<div class="col-10 col-md-5 thr-business-solution-section-item">
+				<h4>Threema Broadcast</h4>
+				<p class="text-secondary-gray600">The tool for efficient top-down communication via feeds, distribution lists, bots, and centrally managed groups.</p>
+				<a href="https://broadcast.threema.ch/en" class="thr-btn nw thr-btn--widthFixedL">Learn more</a>
+			</div>
+			<div class="col-10 col-md-5 thr-business-solution-section-item">
+				<h4>Threema Gateway</h4>
+				<p class="text-secondary-gray600">The message API enables you to send and receive Threema messages using your own software.</p>
+				<a href="https://gateway.threema.ch/en" class="thr-btn nw thr-btn--widthFixedL">Learn more</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="thr-section thr-section--gutterBottomBig thr-section--angleTopLeft">
+	<div class="container-fluid">
+		<h3 class="thr-subtitle text-center">Threema in the Media</h3>
+		<div class="thr-bar-divider mx-auto"></div>
+		<div class="row thr-logoList justify-content-center mt-5">
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://techcrunch.com/2021/01/27/protonmail-threema-tresorit-and-tutanota-warn-eu-lawmakers-against-anti-encryption-push/">
+			<img src="/images/press/logos/press_tc.svg" class="thr-logoList-logo"
+				 alt="TechCrunch" width="70">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.srf.ch/news/wirtschaft/whatsapp-alternative-threema-die-antithese-des-silicon-valley-modells">
+			<img src="/images/press/logos/press_srf.svg" class="thr-logoList-logo"
+				 alt="SRF" width="75">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.watson.ch/digital/schweiz/298079852-threema-ist-das-neue-whatsapp-und-schlaegt-die-konkurrenz-um-laengen">
+			<img src="/images/press/logos/press_watson.svg" class="thr-logoList-logo"
+				 alt="Watson" width="90">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.computerbild.de/artikel/cb-News-Software-Threema-FAQ-27412705.html">
+			<img src="/images/press/logos/press_computer_bild.svg" class="thr-logoList-logo"
+				 alt="Computer Bild" width="110">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.welt.de/wirtschaft/webwelt/plus221293508/Threema-Chef-ueber-WhatsApp-Wenn-ein-Messenger-gratis-ist-muss-man-sich-fragen-wie-damit-Geld-verdient-wird.html?cid=onsite.onsitesearch">
+			<img src="/images/press/logos/press_welt.svg" class="thr-logoList-logo"
+				 alt="Welt" width="90">
+		</a>
+	</div>
+
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.handelsblatt.com/technik/it-internet/whatsapp-alternative-wir-kommen-bei-den-anfragen-kaum-nach-immer-mehr-firmenkunden-wechseln-zu-threema/26866122.html">
+			<img src="/images/press/logos/press_handelsblatt.svg" class="thr-logoList-logo"
+				 alt="Handelsblatt" width="120">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.businessinsider.com/threema-encryption-messaging-app-america-launch-isis-2015-6?r=US&IR=T">
+			<img src="/images/press/logos/press_insider.svg" class="thr-logoList-logo"
+				 alt="Insider" width="100">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.basicthinking.de/blog/2019/08/20/whatsapp-alternative-threema-portraet/">
+			<img src="/images/press/logos/press_basic_thinking.svg" class="thr-logoList-logo"
+				 alt="Basic Thinking" width="80">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.heise.de/tipps-tricks/Wie-sicher-ist-Threema-5043167.html">
+			<img src="/images/press/logos/press_heise_online.svg" class="thr-logoList-logo"
+				 alt="Heise online" width="140">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.nzz.ch/technologie/telegram-signal-threema-die-besten-whatsapp-alternativen-ld.1596289">
+			<img src="/images/press/logos/press_nzz.svg" class="thr-logoList-logo"
+				 alt="NZZ" width="80">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.handelszeitung.ch/bilanz/warum-der-messenger-threema-anders-ist-als-die-andern">
+			<img src="/images/press/logos/press_bilanz.svg" class="thr-logoList-logo"
+				 alt="Bilanz" width="90">
+		</a>
+	</div>
+	<div class="col-4 col-md-3 col-lg-2">
+		<a class="thr-logoList-item thr-logoList-item--white" target="_blank" href="https://www.zdnet.com/article/threema-e2ee-chat-app-to-go-fully-open-source-within-months/">
+			<img src="/images/press/logos/press_zd_net.svg" class="thr-logoList-logo"
+				 alt="Insider" width="90">
+		</a>
+	</div>
+</div>
+
+	</div>
+</div>
+</main>
+
+
+
+	<footer class="border-top footer mb-4 pt-5"><div class="container-fluid"><div class="row"><div class="col-md-3 col-6 mb-4"><span class="thr-ft-title">Products</span><a class="thr-ft-link active" href="/en" title="Threema">Threema</a><a class="thr-ft-link" href="/en/work" title="Threema Work">Threema Work</a><a class="thr-ft-link" href="/en/onprem" title="Threema OnPrem">Threema OnPrem</a><a class="thr-ft-link nw" href="https://broadcast.threema.ch/en" title="Threema Broadcast">Threema Broadcast</a><a class="thr-ft-link nw" href="https://gateway.threema.ch/en" title="Threema Gateway">Threema Gateway</a><a class="thr-ft-link nw" href="https://work.threema.ch/en/education" title="Threema Education">Threema Education</a></div><div class="col-md-3 col-6 mb-4"><span class="thr-ft-title">Threema</span><a class="thr-ft-link" href="/en/whats-new" title="What's New">What's New</a><a class="thr-ft-link" href="/en/download" title="Download">Download</a><a class="thr-ft-link" href="https://web.threema.ch" title="Threema Web">Threema Web</a><a class="thr-ft-link" href="/en/support" title="Support">Support</a><a class="thr-ft-link" href="/en/messenger-comparison" title="Messenger Comparison">Messenger Comparison</a><a class="thr-ft-link" href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf" title="Cryptography Whitepaper">Cryptography Whitepaper</a><a class="thr-ft-link" href="/en/transparencyreport" title="Transparency Report">Transparency Report</a><a class="thr-ft-link" href="/en/open-source" title="Open Source">Open Source</a></div><div class="col-md-3 col-6 mb-4"><span class="thr-ft-title">The Company</span><a class="thr-ft-link" href="/en/about" title="About">About</a><a class="thr-ft-link" href="/en/contact" title="Contact">Contact</a><a class="thr-ft-link" href="/en/jobs" title="Jobs">Jobs</a><a class="thr-ft-link" href="/en/press" title="Press Material">Press Material</a><a class="thr-ft-link" href="https://shop.spreadshirt.ch/threema/" title="Fan Shop (spreadshirt.ch)">Fan Shop (spreadshirt.ch)</a></div><div class="col-md-3 col-6 mb-4"><span class="thr-ft-title">Connect</span><a class="thr-ft-link" href="https://twitter.com/ThreemaApp" title="Twitter" rel="me">Twitter</a><a class="thr-ft-link" href="/en/blog" title="Blog">Blog</a><a class="thr-ft-link" href="/en/faq/Threema_Channel" title="Threema Channel">Threema Channel</a><a class="thr-ft-link" href="https://www.reddit.com/r/threema/" title="Reddit" rel="me">Reddit</a><a class="thr-ft-link" href="https://mastodon.social/@threemaapp" title="Mastodon" rel="me">Mastodon</a><a class="thr-ft-link" href="https://github.com/threema-ch" title="GitHub" rel="me">GitHub</a></div></div><div class="row"><div class="col-md-9 col-12 mb-4"><span class="thr-ft-copyright">Made in Switzerland. © 2021 Threema GmbH. <a href="/en/privacy" class="text-secondary">Privacy Policy</a></span></div></div></div></footer></div><script>$(function(){});</script></body></html>
