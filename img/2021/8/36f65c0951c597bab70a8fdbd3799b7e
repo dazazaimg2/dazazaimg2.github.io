@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-1e64a3d062546e2a03f",applicationID:"455895645"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="canonical" href="https://www.rmg.co.uk/page-unavailable-403" />
+<meta name="twitter:title" content="Page unavailable (403)" />
+<meta name="twitter:description" content="Sorry, you can&#039;t access this page right now" />
+<meta name="description" content="Sorry, you can&#039;t access this page right now" />
+<meta property="og:url" content="https://www.rmg.co.uk/page-unavailable-403" />
+<meta property="og:title" content="Page unavailable (403)" />
+<meta name="twitter:url" content="https://www.rmg.co.uk/page-unavailable-403" />
+<meta property="og:description" content="Sorry, you can&#039;t access this page right now" />
+<meta name="twitter:image" content="https://www.rmg.co.uk/media/15579/edit" />
+<meta property="og:image" content="https://www.rmg.co.uk/media/15579/edit" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/sites/default/files/rmg.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.rmg.co.uk/page-unavailable-403" />
+
+    <title>Page unavailable (403) | Royal Museums Greenwich</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_JQyZ9StD4-4I5jikYtL8icbvn1b-f6xMTWUzpXDhKlc.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_C0Ffg6iqZs0lTJABKAMgDo7pcZRayx434unASjbcRDw.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <header role="banner" class="rmg-header rmg-header--with-hero">
+    <div class="rmg-header__background"></div>
+    <div class="rmg-header__container">
+      <div class="rmg-header__content">
+        
+        <section class="rmg-header__primary">
+          <a href="/" class="rmg-logo__container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 56" class="rmg-logo"><title>Royal Museums Greenwich</title><path d="M116.147 25.493h1.753v-.882c0-1.82-1.366-3.218-3.377-3.218-2.01 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.34 1.226-.894 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383s3.581-1.465 3.581-3.383v-.46c0-4.565-5.197-2.89-5.197-5.715v-.477c0-.974.591-1.636 1.624-1.636 1.034 0 1.624.662 1.624 1.636l-.01.918zm-12.32 4.414h1.623l1.661-3.956h.036v8.313h1.773V21.736h-1.773l-2.52 5.61-2.48-5.61h-1.773v12.545h1.772v-8.327h.037l1.643 3.953zM96.28 31.34c0 .925-.752 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.605h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583h-1.773l.006 9.605zm-11.439 1.38v-3.937h3.82v-1.543h-3.814v-3.972h4.502v-1.533h-6.272v12.545h6.272v-1.547l-4.508-.014zm-5.751-7.228h1.753v-.882c0-1.82-1.367-3.218-3.377-3.218-2.011 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.341 1.226-.895 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383 2.123 0 3.562-1.454 3.562-3.383v-.46c0-4.562-5.183-2.87-5.183-5.704v-.488c0-.974.59-1.636 1.624-1.636 1.033 0 1.624.662 1.624 1.636l-.005.918zm-8.913 5.862c0 .925-.753 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.619h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583H70.17l.006 9.62zm46.645 8.43c2.123 0 3.506 1.491 3.506 3.367v1.142h-1.773v-1.178c.026-.635-.299-1.232-.846-1.557-.548-.325-1.23-.325-1.776 0-.548.325-.873.922-.847 1.557v6.551c-.026.634.3 1.232.847 1.557.547.324 1.228.324 1.776 0 .547-.325.872-.923.846-1.557v-1.195h1.764l.009 1.178c0 1.879-1.383 3.35-3.506 3.35-2.123 0-3.506-1.474-3.506-3.35v-6.498c0-1.876 1.383-3.367 3.506-3.367zm-59.26-.002c2.142 0 3.562 1.49 3.562 3.422v.681H59.35l-.003-.717c0-.986-.8-1.784-1.789-1.784-.988 0-1.79.798-1.79 1.784v6.445c0 .985.802 1.784 1.79 1.784s1.79-.799 1.79-1.784v-2.409h-1.79v-1.544h3.565v3.908c0 1.932-1.42 3.423-3.562 3.423S54 51.5 54 49.569v-6.364c0-1.932 1.42-3.422 3.562-3.422zm21.012.335v1.543h-4.502v3.975h3.814v1.544h-3.82v3.936l4.508.003v1.543h-6.272V40.118h6.272zm8.171 0v1.543h-4.5v3.975h3.814v1.544h-3.82v3.936l4.506.003v1.543h-6.272V40.118h6.272zm3.873 0l2.859 8.424h.073l-.02-8.424h1.773v12.541l-1.96.003-2.86-8.424h-.072l.02 8.424h-1.773V40.118h1.96zm33.53 0v5.535h3.08v-5.535H129v12.541h-1.773v-5.462h-3.08v5.465h-1.772V40.118h1.772zm-57.346-.014c.852-.022 1.678.296 2.295.882.616.587.972 1.395.99 2.244v1.85c-.007 1.265-.781 2.398-1.957 2.87l1.789 4.71h-1.918l-1.697-4.45h-1.198v4.438h-1.773V40.104zm32.362.01l1.12 8.654h.073l1.12-5.304h1.66l1.12 5.304h.073l1.12-8.653h1.79l-1.938 12.544h-1.792l-1.162-5.83h-.073l-1.162 5.83h-1.79l-1.937-12.544h1.778zm11.943.004v12.541h-1.784l.011-12.541h1.773zM66.802 41.66h-1.696v5.002l1.696.003c.413-.006.805-.178 1.09-.475.284-.298.436-.697.423-1.107v-1.84c.013-.41-.14-.81-.424-1.107-.284-.298-.676-.47-1.089-.476zM55.943 21.736l2.52 5.61 2.52-5.61h1.77v12.542h-1.77v-8.313h-.05l-1.66 3.956h-1.624l-1.67-3.967h-.036v8.327h-1.772V21.736h1.772zM66.562 3c2.103 0 3.598 1.488 3.598 3.475v6.273c0 1.987-1.495 3.458-3.598 3.458-2.103 0-3.599-1.47-3.599-3.458V6.475C62.963 4.491 64.46 3 66.562 3zm-8.922.33c.852-.022 1.678.295 2.294.882.617.587.973 1.394.99 2.244v1.84h.015c-.01 1.263-.784 2.396-1.96 2.869l1.789 4.71H58.85l-1.708-4.45h-1.199v4.45h-1.761V3.328zm15.415 0l1.846 5.15h.112l1.848-5.15h1.918l-2.935 7.137v5.407h-1.772v-5.407L71.137 3.33h1.918zm10.593 0l2.946 12.544h-1.809l-.453-1.954H80.99l-.46 1.954h-1.808L81.705 3.33h1.943zm6.55 0v11h4.17v1.544h-5.943V3.33h1.773zM67.534 4.715c-.59-.366-1.338-.366-1.928 0-.591.365-.923 1.033-.856 1.723v6.345c-.067.69.265 1.358.856 1.723.59.366 1.338.366 1.928 0 .591-.365.923-1.033.856-1.723V6.439c.067-.69-.265-1.358-.856-1.723zm15.17 1.687h-.072l-1.291 5.96h2.638l-1.274-5.96zM57.64 4.876h-1.697v5.002l1.697.003c.412-.007.805-.178 1.09-.476.283-.297.436-.696.422-1.107v-1.84c.014-.41-.139-.81-.423-1.107-.284-.297-.677-.469-1.089-.475zM24.376 24.46h18.532c-.671 10.126-8.597 18.205-18.532 18.898V24.46zm19.01-11.925C38.306 2.597 26.873-2.256 16.244 1.013 5.615 4.283-1.158 14.736.164 25.83c1.323 11.095 10.361 19.644 21.458 20.296V56h2.754v-9.874C36.516 45.404 45.994 35.3 46 23.076c0-.469-.042-.924-.07-1.384H21.622v21.666c-10.399-.724-18.603-9.515-18.603-20.28 0-11.24 8.946-20.34 19.98-20.34 7.78 0 14.488 4.546 17.785 11.156l2.602-1.359z"/></svg>
+</a>
+          <nav role="navigation" aria-labelledby="block-quickmenu-menu" id="block-quickmenu">
+            
+  <h2 class="visually-hidden" id="block-quickmenu-menu">Quick menu</h2>
+  
+
+        
+        <ul data-region="quick">
+            <li>
+        <a href="/plan-your-visit" data-gtm-name="nav: static" data-drupal-link-system-path="node/2931">Plan your visit</a>
+              </li>
+          <li>
+        <a href="/whats-on" data-gtm-name="nav: static" data-drupal-link-system-path="whats-on">What&#039;s on</a>
+              </li>
+          <li>
+        <a href="/collections" data-gtm-name="nav: static" data-drupal-link-system-path="collections">Collections</a>
+              </li>
+          <li>
+        <a href="/stories" data-gtm-name="nav: static" data-drupal-link-system-path="node/3560">Stories</a>
+              </li>
+          <li>
+        <a href="https://shop.rmg.co.uk/" title="Shop at RMG" data-gtm-name="nav: static">Shop</a>
+              </li>
+          <li>
+        <a href="#search" data-gtm-name="nav: static">Search</a>
+              </li>
+          <li>
+        <a href="#main-menu" data-gtm-name="nav: static">Menu</a>
+              </li>
+      </ul>
+  
+
+
+  </nav>
+
+
+        </section>
+                  <section class="rmg-header__secondary "><div id="block-branchmenu">
+  
+    
+      <nav class="branch-menu"><ul class="branch-menu__list">
+      <input type="checkbox" class="branch-menu__control" aria-hidden="true" aria-controls="sect-" id="branch-menu--ctrl" /><li class="branch-menu__item location-cutty-sark">
+          <a href="/cutty-sark" data-gtm-name="nav: venue">Cutty Sark</a>
+        </li><li class="branch-menu__item location-national-maritime-museum">
+          <a href="/national-maritime-museum" data-gtm-name="nav: venue">National Maritime Museum</a>
+        </li><li class="branch-menu__item location-queens-house">
+          <a href="/queens-house" data-gtm-name="nav: venue">Queen&#039;s House</a>
+        </li><li class="branch-menu__item location-royal-observatory">
+          <a href="/royal-observatory" data-gtm-name="nav: venue">Royal Observatory</a>
+        </li><li class="branch-menu__item branch-menu__ctrl-item" aria-expanded="false"><label class="branch-menu__label" for="branch-menu--ctrl">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.5 17.2" width="77" height="18"><title>All Sites</title><path fill="#ffffff" d="M19.2 14.5H14V.3h-2.3v16.2h7.6v-2zM45.3 16.4h2.3V.3h-2.3zM28 14.5h-5.3V.3h-2.3v16.2H28v-2zM57.2 2.3v-2H49v2h3v14.2h2.3V2.3h3zM60.7 14.4v-5h5v-2h-5V2.3h5.8v-2h-8v16.2h8v-2h-5.8zM74 5.5h2.3V4.3C76.3 2 74.5.2 72 .2c-2.6 0-4.4 1.8-4.4 4.1V5c0 5.6 6.7 3.2 6.7 7.4v.6a2.3 2.3 0 01-4.6 0v-1.4h-2.3v1.4c0 2.5 1.8 4.3 4.6 4.3 2.7 0 4.5-1.9 4.5-4.3v-.6c0-6-6.6-3.8-6.6-7.4v-.6c0-1.3.7-2.1 2-2.1 1.4 0 2.2.8 2.2 2zM41.1 5.3h2.2V4C43.3 1.8 41.6 0 39 0c-2.6 0-4.3 1.8-4.3 4.1v.6c0 5.6 6.6 3.3 6.6 7.4v.6a2.3 2.3 0 01-4.6 0v-1.4h-2.3v1.4c0 2.5 1.9 4.3 4.6 4.3 2.7 0 4.6-1.8 4.6-4.3V12c0-5.9-6.7-3.7-6.7-7.4v-.6C37 2.8 37.7 2 39 2s2.1.8 2.1 2.1zM3.4 11.9L5 4.2h.1L6.8 12zM3.8.3L0 16.5h2.3l.6-2.6h4.3l.6 2.6h2.3L6.3.3z"/></svg>
+      </label></li>
+    </ul></nav>
+
+  </div>
+
+</section>
+              </div>
+    </div>
+          <section id="hero" class="rmg-header__hero">
+            <div class="hero-image">
+    <div class="hero-image__background">
+    
+            <article>
+  
+      
+                <picture>
+                  <source srcset="/sites/default/files/styles/full_width_2600/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=u5uc8JDA 1x" media="all and (min-width: 1440px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_1440/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=x3H6sbkx 1x" media="all and (min-width: 1024px) and (max-width: 1439px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=Qqnvqs1d 1x" media="all and (min-width: 720px) and (max-width: 1023px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_720/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=CQKiycqG 1x, /sites/default/files/styles/full_width_1440_mobile/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=M4OwNozg 2x" media="all and (min-width: 0px)" type="image/jpeg"/>
+                  <img src="/sites/default/files/styles/full_width_1440/public/2021-01/Pirate%20flag%20rmg%20collection.jpg?itok=x3H6sbkx" alt="A red triangular flag with a black skull and crossbones" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+
+      
+  </div>
+    <div class="hero-image__row">
+    <div class="hero-image__contain slice">
+      <div class="hero-image__content">
+        <h1>
+            You can&#039;t access this page
+      </h1>
+        <div class="hero-image__inner">
+          
+            <p>Sorry, this page isn't available right now. (Error 403)</p>
+      
+                    <div class="hero-image__cta">
+            
+          </div>
+                  </div>
+      </div>
+          </div>
+  </div>
+</div>
+
+      </section>
+      </header>
+
+  <div class="sticky-region__observer"></div>
+<section class="sticky-region">
+  <div class="sticky-region__container">
+  
+  </div>
+</section>
+
+
+  <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-visitornotices">
+  
+    
+      
+  </div>
+
+
+
+  
+
+  
+
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+          <div id="block-rmg-theme-content">
+  
+    
+      <article role="article" about="/page-unavailable-403" typeof="schema:WebPage" data-content-type="page">
+
+  
+      <span property="schema:name" content="Page unavailable (403)" class="hidden"></span>
+
+
+  
+  <div>
+    
+      <div>
+              <div><div class="text-block slice ">
+  <div class="text-block__row">
+    <div class="text-block__contain">
+      <div class="text-block__title">
+             </div>
+            
+            <p>The links below should help steer you back to safer waters.</p>
+
+<p>If you still can't find what you're looking for, you can <a href="/contact" data-gtm-name="CTA" data-gtm-detail="formatted content">contact us here</a>.</p>
+      
+    </div>
+  </div>
+</div>
+</div>
+              <div>
+<div class="image-text-carousel slice ">
+  <div class="image-text-carousel__row">
+    <div class="image-text-carousel__content">
+      <div class="image-text-carousel__title">
+              <div class="optional-titles-block">
+    <h2 class="optional-titles-block__title">
+            Our locations
+      </h1>
+      <p class="optional-titles-block__subtitle">
+            Navigate back to our main sites
+      </h2>
+  </div>
+            </div>
+      <div class="image-text-carousel__slider">
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/National%20Maritime%20Museum%20L0529-008.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/national-maritime-museum">National Maritime Museum</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Discover epic stories of exploration and endeavour that have shaped our world today
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-07/royal%20observatory%20prime%20meridian%20line.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/royal-observatory">Royal Observatory</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Visit the home of Greenwich Mean Time (GMT), the Prime Meridian of the world and London’s only Planetarium
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-07/RMG-JPEG-37-FB.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/cutty-sark">Cutty Sark</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Step aboard the historic sailing ship, the fastest of its time
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/L3431-027_1224x800.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/queens-house">Queen&#039;s House</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  See extraordinary art for free inside one of London&#039;s most beautiful buildings
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/S5270-006_1.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/whats-on/planetarium-shows">The Peter Harrison Planetarium</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Out of this world stargazing and astronomy shows for the whole family
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-04/PPMCC%20children_0.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/collections/prince-philip-maritime-collections-centre">Prince Philip Maritime Collections Centre</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Go behind the scenes at our state-of-the-art conservation studio
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/caird%20library%20banner.png);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/collections/caird-library">Caird Library</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Visit the world&#039;s largest maritime library and archive collection at the National Maritime Museum
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-07/RMG-JPEG-158.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/plan-your-visit">Plan your visit</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Find everything you need to help you plan a safe and inspiring visit to Royal Museums Greenwich
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+      <div class="image-text-carousel__dots">
+                  <span class="image-text-carousel__dot" data-pos="1"></span>
+                  <span class="image-text-carousel__dot" data-pos="2"></span>
+                  <span class="image-text-carousel__dot" data-pos="3"></span>
+                  <span class="image-text-carousel__dot" data-pos="4"></span>
+                  <span class="image-text-carousel__dot" data-pos="5"></span>
+                  <span class="image-text-carousel__dot" data-pos="6"></span>
+                  <span class="image-text-carousel__dot" data-pos="7"></span>
+                  <span class="image-text-carousel__dot" data-pos="8"></span>
+              </div>
+      <div class="image-text-carousel__slide-controls">
+        <a href="javascript:void(0);" class="prev" aria-label="Previous slide"></a>
+        <a href="javascript:void(0);" class="next" aria-label="Next slide"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+              <div>
+  
+<div class="feature-block slice feature-block--fixed-width ">
+  <div class="feature-block__container">
+    <div class="feature-block__block-wrapper">
+              <div class="feature-block__background">
+          
+            <article>
+  
+      
+                <picture>
+                  <source srcset="/sites/default/files/styles/full_width_2600/public/Cutty%20SarkL8623-068_slider.JPG?itok=iBi9pJU6 1x" media="all and (min-width: 1440px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_1440/public/Cutty%20SarkL8623-068_slider.JPG?itok=AMZ-10Qz 1x" media="all and (min-width: 1024px) and (max-width: 1439px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_/public/Cutty%20SarkL8623-068_slider.JPG?itok=pKIWyH6M 1x" media="all and (min-width: 720px) and (max-width: 1023px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/full_width_720/public/Cutty%20SarkL8623-068_slider.JPG?itok=uCJhnP0_ 1x, /sites/default/files/styles/full_width_1440_mobile/public/Cutty%20SarkL8623-068_slider.JPG?itok=WGjmH9Tk 2x" media="all and (min-width: 0px)" type="image/jpeg"/>
+                  <img src="/sites/default/files/styles/full_width_1440/public/Cutty%20SarkL8623-068_slider.JPG?itok=AMZ-10Qz" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+
+      
+        </div>
+            <div class="feature-block__row">
+        <div class="feature-block__contain slice">
+          <div class="feature-block__content">
+                                      <h1>Exhibitions and events</h1>
+                        <div class="feature-block__inner">
+              
+            Looking for something to do? Find all our upcoming events here
+      
+                              <div class="feature-block__cta">
+                  
+
+       <a href="/whats-on" data-gtm-name="CTA" data-gtm-detail="feature block">See what&#039;s on</a>
+ 
+
+                </div>
+                          </div>
+          </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+              <div>
+<div class="image-text-carousel slice ">
+  <div class="image-text-carousel__row">
+    <div class="image-text-carousel__content">
+      <div class="image-text-carousel__title">
+              <div class="optional-titles-block">
+    <h2 class="optional-titles-block__title">
+            Stories and collections
+      </h1>
+      <p class="optional-titles-block__subtitle">
+            Search our blogs, resources and collections online
+      </h2>
+  </div>
+            </div>
+      <div class="image-text-carousel__slider">
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-11/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/stories">Stories</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Search our digital collections, discover epic stories of sea, space and exploration, and get expert insight from our museum curators and specialists
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/school-resources_nmm_banner.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/schools-communities/schools-resources">Schools resources</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  From science and space to the history of the world, find resources, ideas and lesson plans for all ages, key stages and subjects
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2020-09/S1009-024.jpg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/stories/blogs">Museum blog</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Go behind the scenes with our expert curators, astronomers, conservators and library &amp; archive team
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div>
+            <div class="image-text-carousel__item">
+              <div class="image-text-carousel__item-image">
+                <div style="background-image:url(https://www.rmg.co.uk/sites/default/files/2021-06/NMM_Building%20%26%20Event_LowRES_54.jpeg);"></div>
+              </div>
+              <div class="image-text-carousel__item-content">
+                <div class="image-text-carousel__item-title">
+                  <a href="/collections/research-collections">Research and collections</a>
+                </div>
+                <div class="image-text-carousel__item-description">
+                  Search our collections online, get expert help at the Caird Library and come behind the scenes at the Prince Philip Maritime Collections Centre
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+      <div class="image-text-carousel__dots">
+                  <span class="image-text-carousel__dot" data-pos="1"></span>
+                  <span class="image-text-carousel__dot" data-pos="2"></span>
+                  <span class="image-text-carousel__dot" data-pos="3"></span>
+                  <span class="image-text-carousel__dot" data-pos="4"></span>
+              </div>
+      <div class="image-text-carousel__slide-controls">
+        <a href="javascript:void(0);" class="prev" aria-label="Previous slide"></a>
+        <a href="javascript:void(0);" class="next" aria-label="Next slide"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+          </div>
+  
+  </div>
+
+</article>
+
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer = [{
+      'event': 'RMG metadata',
+      'pageType': 'page',
+      'pageTitle': 'Page unavailable (403)',
+      'pageGroup': 'page'
+    }];
+  </script>
+
+  </div>
+
+
+        </div>  </main>
+
+  <section id="menu-flyout" class="menu-flyout flyout slice slice__light">
+  <div class="menu-flyout__full-width">
+    <div class="menu-flyout__container">
+      <header>
+        <a href="/" class="rmg-logo__container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 56" class="rmg-logo"><title>Royal Museums Greenwich</title><path d="M116.147 25.493h1.753v-.882c0-1.82-1.366-3.218-3.377-3.218-2.01 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.34 1.226-.894 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383s3.581-1.465 3.581-3.383v-.46c0-4.565-5.197-2.89-5.197-5.715v-.477c0-.974.591-1.636 1.624-1.636 1.034 0 1.624.662 1.624 1.636l-.01.918zm-12.32 4.414h1.623l1.661-3.956h.036v8.313h1.773V21.736h-1.773l-2.52 5.61-2.48-5.61h-1.773v12.545h1.772v-8.327h.037l1.643 3.953zM96.28 31.34c0 .925-.752 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.605h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583h-1.773l.006 9.605zm-11.439 1.38v-3.937h3.82v-1.543h-3.814v-3.972h4.502v-1.533h-6.272v12.545h6.272v-1.547l-4.508-.014zm-5.751-7.228h1.753v-.882c0-1.82-1.367-3.218-3.377-3.218-2.011 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.341 1.226-.895 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383 2.123 0 3.562-1.454 3.562-3.383v-.46c0-4.562-5.183-2.87-5.183-5.704v-.488c0-.974.59-1.636 1.624-1.636 1.033 0 1.624.662 1.624 1.636l-.005.918zm-8.913 5.862c0 .925-.753 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.619h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583H70.17l.006 9.62zm46.645 8.43c2.123 0 3.506 1.491 3.506 3.367v1.142h-1.773v-1.178c.026-.635-.299-1.232-.846-1.557-.548-.325-1.23-.325-1.776 0-.548.325-.873.922-.847 1.557v6.551c-.026.634.3 1.232.847 1.557.547.324 1.228.324 1.776 0 .547-.325.872-.923.846-1.557v-1.195h1.764l.009 1.178c0 1.879-1.383 3.35-3.506 3.35-2.123 0-3.506-1.474-3.506-3.35v-6.498c0-1.876 1.383-3.367 3.506-3.367zm-59.26-.002c2.142 0 3.562 1.49 3.562 3.422v.681H59.35l-.003-.717c0-.986-.8-1.784-1.789-1.784-.988 0-1.79.798-1.79 1.784v6.445c0 .985.802 1.784 1.79 1.784s1.79-.799 1.79-1.784v-2.409h-1.79v-1.544h3.565v3.908c0 1.932-1.42 3.423-3.562 3.423S54 51.5 54 49.569v-6.364c0-1.932 1.42-3.422 3.562-3.422zm21.012.335v1.543h-4.502v3.975h3.814v1.544h-3.82v3.936l4.508.003v1.543h-6.272V40.118h6.272zm8.171 0v1.543h-4.5v3.975h3.814v1.544h-3.82v3.936l4.506.003v1.543h-6.272V40.118h6.272zm3.873 0l2.859 8.424h.073l-.02-8.424h1.773v12.541l-1.96.003-2.86-8.424h-.072l.02 8.424h-1.773V40.118h1.96zm33.53 0v5.535h3.08v-5.535H129v12.541h-1.773v-5.462h-3.08v5.465h-1.772V40.118h1.772zm-57.346-.014c.852-.022 1.678.296 2.295.882.616.587.972 1.395.99 2.244v1.85c-.007 1.265-.781 2.398-1.957 2.87l1.789 4.71h-1.918l-1.697-4.45h-1.198v4.438h-1.773V40.104zm32.362.01l1.12 8.654h.073l1.12-5.304h1.66l1.12 5.304h.073l1.12-8.653h1.79l-1.938 12.544h-1.792l-1.162-5.83h-.073l-1.162 5.83h-1.79l-1.937-12.544h1.778zm11.943.004v12.541h-1.784l.011-12.541h1.773zM66.802 41.66h-1.696v5.002l1.696.003c.413-.006.805-.178 1.09-.475.284-.298.436-.697.423-1.107v-1.84c.013-.41-.14-.81-.424-1.107-.284-.298-.676-.47-1.089-.476zM55.943 21.736l2.52 5.61 2.52-5.61h1.77v12.542h-1.77v-8.313h-.05l-1.66 3.956h-1.624l-1.67-3.967h-.036v8.327h-1.772V21.736h1.772zM66.562 3c2.103 0 3.598 1.488 3.598 3.475v6.273c0 1.987-1.495 3.458-3.598 3.458-2.103 0-3.599-1.47-3.599-3.458V6.475C62.963 4.491 64.46 3 66.562 3zm-8.922.33c.852-.022 1.678.295 2.294.882.617.587.973 1.394.99 2.244v1.84h.015c-.01 1.263-.784 2.396-1.96 2.869l1.789 4.71H58.85l-1.708-4.45h-1.199v4.45h-1.761V3.328zm15.415 0l1.846 5.15h.112l1.848-5.15h1.918l-2.935 7.137v5.407h-1.772v-5.407L71.137 3.33h1.918zm10.593 0l2.946 12.544h-1.809l-.453-1.954H80.99l-.46 1.954h-1.808L81.705 3.33h1.943zm6.55 0v11h4.17v1.544h-5.943V3.33h1.773zM67.534 4.715c-.59-.366-1.338-.366-1.928 0-.591.365-.923 1.033-.856 1.723v6.345c-.067.69.265 1.358.856 1.723.59.366 1.338.366 1.928 0 .591-.365.923-1.033.856-1.723V6.439c.067-.69-.265-1.358-.856-1.723zm15.17 1.687h-.072l-1.291 5.96h2.638l-1.274-5.96zM57.64 4.876h-1.697v5.002l1.697.003c.412-.007.805-.178 1.09-.476.283-.297.436-.696.422-1.107v-1.84c.014-.41-.139-.81-.423-1.107-.284-.297-.677-.469-1.089-.475zM24.376 24.46h18.532c-.671 10.126-8.597 18.205-18.532 18.898V24.46zm19.01-11.925C38.306 2.597 26.873-2.256 16.244 1.013 5.615 4.283-1.158 14.736.164 25.83c1.323 11.095 10.361 19.644 21.458 20.296V56h2.754v-9.874C36.516 45.404 45.994 35.3 46 23.076c0-.469-.042-.924-.07-1.384H21.622v21.666c-10.399-.724-18.603-9.515-18.603-20.28 0-11.24 8.946-20.34 19.98-20.34 7.78 0 14.488 4.546 17.785 11.156l2.602-1.359z"/></svg>
+</a>
+        <div class="menu-flyout__buttons">
+          <a id="menu-flyout__search" class="button" href="#search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <circle cx="6" cy="6" r="5"/>
+              <line x1="10" y1="10" x2="14" y2="14"/>
+            </svg>
+            Search
+          </a>
+
+          <button id="menu-flyout__close">
+            <svg viewBox="0 0 12 12" height="12" width="12">
+              <path d="M1,1 L11,11 M1,11 L11,1"/>
+            </svg>
+            Close
+          </button>
+        </div>
+      </header>
+      <div class="menu-flyout__content">
+        <h1 class="menu-flyout__title">Visit Us</h1>
+        <div class="menu-flyout__branches">
+          <div id="block-highlightedmenu">
+  
+    
+      <nav class="highlighted-menu"><ul class="highlighted-menu__list"><li class="location-cutty-sark">
+          <a href="/cutty-sark" data-gtm-name="nav: burger">
+            <div>
+              <img src="/sites/default/files/styles/highlight_card/public/2020-07/RMG-JPEG-37-FB.jpg?itok=auGWwc80" width="426" height="334" alt="A woman walks along the main deck of Cutty Sark" typeof="foaf:Image" />
+
+
+
+      </div>
+            <span>Cutty Sark</span>
+          </a>
+        </li><li class="location-national-maritime-museum">
+          <a href="/national-maritime-museum" data-gtm-name="nav: burger">
+            <div>
+              <img src="/sites/default/files/styles/highlight_card/public/National%20Maritime%20Museum%20L0529-008.jpg?itok=yYrzbMx6" width="426" height="334" typeof="foaf:Image" />
+
+
+
+      </div>
+            <span>National Maritime Museum</span>
+          </a>
+        </li><li class="location-queens-house">
+          <a href="/queens-house" data-gtm-name="nav: burger">
+            <div>
+              <img src="/sites/default/files/styles/highlight_card/public/Green%20Means%20Time%20campaign%20Queen%27s%20House%20banner.jpg?itok=JVrJlFRd" width="426" height="334" typeof="foaf:Image" />
+
+
+
+      </div>
+            <span>Queen&#039;s House</span>
+          </a>
+        </li><li class="location-royal-observatory">
+          <a href="/royal-observatory" data-gtm-name="nav: burger">
+            <div>
+              <img src="/sites/default/files/styles/highlight_card/public/2020-07/royal%20observatory%20prime%20meridian%20line.jpg?itok=FwGiiQEr" width="426" height="334" alt="A father and son play on the Prime Meridian Line outside the historic Flamsteed House building of the Royal Observatory" typeof="foaf:Image" />
+
+
+
+      </div>
+            <span>Royal Observatory</span>
+          </a>
+        </li><li>
+          <a href="/plan-your-visit" data-gtm-name="nav: burger">
+            <div>
+              <img src="/sites/default/files/styles/highlight_card/public/Visit%20Greenwich_0.jpg?itok=gE2ljyyg" width="426" height="334" typeof="foaf:Image" />
+
+
+
+      </div>
+            <span>Plan your visit</span>
+          </a>
+        </li></ul></nav>
+
+  </div>
+
+
+        </div>
+        <div class="menu-flyout__menus">
+          <div id="block-rmgmainmenu">
+  
+    
+      
+<nav class="main-menu"><ul class="main-menu__list"><li>
+            <a href="/whats-on" data-gtm-name="nav: burger">What&#039;s On</a>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-69082116-5bc9-49d1-9cf2-839769b55d94" id="ctrl-69082116-5bc9-49d1-9cf2-839769b55d94" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-69082116-5bc9-49d1-9cf2-839769b55d94">
+        Stories
+      </label>
+      <ul id="sect-69082116-5bc9-49d1-9cf2-839769b55d94" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="/stories/blogs" data-gtm-name="nav: burger">Museum blog</a></li>
+                                <li><a href="/stories/2021-guide-night-sky" data-gtm-name="nav: burger">Guide to the night sky</a></li>
+                                <li><a href="/stories/royal-history" data-gtm-name="nav: burger">Royal history</a></li>
+                                <li class="main-menu__parent">
+          <a href="/stories" data-gtm-name="nav: burger">Stories</a>
+        </li>
+              </ul>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-859e7ff0-3d80-4dc7-8cdf-044c80420427" id="ctrl-859e7ff0-3d80-4dc7-8cdf-044c80420427" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-859e7ff0-3d80-4dc7-8cdf-044c80420427">
+        Schools &amp; Communities
+      </label>
+      <ul id="sect-859e7ff0-3d80-4dc7-8cdf-044c80420427" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="/schools-communities/digital-school-sessions" data-gtm-name="nav: burger">Digital school sessions</a></li>
+                                <li><a href="/schools-communities/onsite-school-sessions" data-gtm-name="nav: burger">Onsite school sessions</a></li>
+                                <li><a href="/schools-communities/self-guided-school-visits" data-gtm-name="nav: burger">Self-guided school visits</a></li>
+                                <li><a href="/schools-communities/schools-resources" data-gtm-name="nav: burger">Schools resources</a></li>
+                                <li><a href="/schools-communities/learning-home-royal-observatory" data-gtm-name="nav: burger">Astronomy learning at home</a></li>
+                                <li><a href="/schools-communities/maritime-home-learning" data-gtm-name="nav: burger">Maritime learning at home</a></li>
+                                <li><a href="/schools-communities/young-people" data-gtm-name="nav: burger">Young People</a></li>
+                                <li class="main-menu__parent">
+          <a href="/schools-communities" data-gtm-name="nav: burger">Schools &amp; Communities</a>
+        </li>
+              </ul>
+          </li><li>
+            <a href="/collections/research-collections" data-gtm-name="nav: burger">Research &amp; Collections</a>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-0ab8dc14-f45d-431b-a0d7-736f61be1510" id="ctrl-0ab8dc14-f45d-431b-a0d7-736f61be1510" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-0ab8dc14-f45d-431b-a0d7-736f61be1510">
+        Membership
+      </label>
+      <ul id="sect-0ab8dc14-f45d-431b-a0d7-736f61be1510" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="/membership/family-membership" data-gtm-name="nav: burger">Family membership</a></li>
+                                <li><a href="/membership/gift-membership" data-gtm-name="nav: burger">Gift membership</a></li>
+                                <li><a href="/support-us/corporate-partnerships/membership" data-gtm-name="nav: burger">Corporate membership</a></li>
+                                <li><a href="/membership/flamsteed-astronomy-society" data-gtm-name="nav: burger">The Flamsteed Astronomy Society</a></li>
+                                <li><a href="/membership/membership-faqs" data-gtm-name="nav: burger">Membership FAQs</a></li>
+                                <li class="main-menu__parent">
+          <a href="/membership" data-gtm-name="nav: burger">Membership</a>
+        </li>
+              </ul>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-28d03541-5bb5-49cf-b0ae-835fbe5c24ab" id="ctrl-28d03541-5bb5-49cf-b0ae-835fbe5c24ab" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-28d03541-5bb5-49cf-b0ae-835fbe5c24ab">
+        Support us
+      </label>
+      <ul id="sect-28d03541-5bb5-49cf-b0ae-835fbe5c24ab" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="https://donate.rmg.co.uk/" data-gtm-name="nav: burger">Donate</a></li>
+                                <li><a href="/support-us/corporate-partnerships" data-gtm-name="nav: burger">Corporate partnerships</a></li>
+                                <li><a href="/support-us/become-patron" data-gtm-name="nav: burger">Become a patron</a></li>
+                                <li><a href="/support-us/legacy" data-gtm-name="nav: burger">Leave a legacy</a></li>
+                                <li class="main-menu__parent">
+          <a href="/support-us" data-gtm-name="nav: burger">Support us</a>
+        </li>
+              </ul>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-cea94ad6-efac-438a-9988-756dd2f1ba8b" id="ctrl-cea94ad6-efac-438a-9988-756dd2f1ba8b" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-cea94ad6-efac-438a-9988-756dd2f1ba8b">
+        Venue Hire
+      </label>
+      <ul id="sect-cea94ad6-efac-438a-9988-756dd2f1ba8b" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="/venue-hire/corporate-events" data-gtm-name="nav: burger">Corporate Events</a></li>
+                                <li><a href="/venue-hire/weddings-special-occasions" data-gtm-name="nav: burger">Weddings &amp; Special occasions</a></li>
+                                <li><a href="/venue-hire/filming-photography" data-gtm-name="nav: burger">Filming &amp; Photography</a></li>
+                                <li><a href="/venue-hire/bespoke-experiences" data-gtm-name="nav: burger">Bespoke experiences</a></li>
+                                <li><a href="/venue-hire/venue-news-faqs" data-gtm-name="nav: burger">News &amp; FAQs</a></li>
+                                                <li class="main-menu__parent">
+          <a href="/venue-hire" data-gtm-name="nav: burger">Venue Hire</a>
+        </li>
+              </ul>
+          </li><li>
+            <input type="checkbox" class="main-menu__control" aria-hidden="true" aria-controls="sect-388567fa-a9d3-4097-92ff-88bc18435bf2" id="ctrl-388567fa-a9d3-4097-92ff-88bc18435bf2" />
+      <label aria-expanded="false" class="main-menu__label" for="ctrl-388567fa-a9d3-4097-92ff-88bc18435bf2">
+        About Us
+      </label>
+      <ul id="sect-388567fa-a9d3-4097-92ff-88bc18435bf2" class="main-menu__child" aria-expanded="false" aria-hidden="true" hidden>
+                        <li><a href="/about-us/what-we-do" data-gtm-name="nav: burger">What we do</a></li>
+                                                <li><a href="/about-us/jobs-volunteering" data-gtm-name="nav: burger">Jobs &amp; volunteering</a></li>
+                                <li><a href="/about-us/learning-partnerships-outreach" data-gtm-name="nav: burger">Learning, partnerships and outreach</a></li>
+                                <li><a href="/about-us/international-touring-activities" data-gtm-name="nav: burger">International touring &amp; activities</a></li>
+                                <li class="main-menu__parent">
+          <a href="/about-us" data-gtm-name="nav: burger">About Us</a>
+        </li>
+              </ul>
+          </li><li>
+            <a href="https://shop.rmg.co.uk/" data-gtm-name="nav: burger">Shop</a>
+          </li><li>
+            <a href="https://donate.rmg.co.uk/" data-gtm-name="nav: burger">Donate</a>
+          </li></ul></nav>
+
+  </div>
+<div id="block-minormenu">
+  
+    
+      
+  </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="search-flyout" class="search-flyout flyout slice slice__light">
+  <div class="search-flyout__full-width">
+    <div class="search-flyout__container">
+      <header>
+        <a href="/" class="rmg-logo__container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 56" class="rmg-logo"><title>Royal Museums Greenwich</title><path d="M116.147 25.493h1.753v-.882c0-1.82-1.366-3.218-3.377-3.218-2.01 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.34 1.226-.894 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383s3.581-1.465 3.581-3.383v-.46c0-4.565-5.197-2.89-5.197-5.715v-.477c0-.974.591-1.636 1.624-1.636 1.034 0 1.624.662 1.624 1.636l-.01.918zm-12.32 4.414h1.623l1.661-3.956h.036v8.313h1.773V21.736h-1.773l-2.52 5.61-2.48-5.61h-1.773v12.545h1.772v-8.327h.037l1.643 3.953zM96.28 31.34c0 .925-.752 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.605h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583h-1.773l.006 9.605zm-11.439 1.38v-3.937h3.82v-1.543h-3.814v-3.972h4.502v-1.533h-6.272v12.545h6.272v-1.547l-4.508-.014zm-5.751-7.228h1.753v-.882c0-1.82-1.367-3.218-3.377-3.218-2.011 0-3.394 1.379-3.394 3.199v.46c0 4.36 5.186 2.513 5.186 5.703v.497c0 .637-.341 1.226-.895 1.545-.554.318-1.236.318-1.79 0-.553-.319-.894-.908-.894-1.545v-1.117h-1.773v1.092c0 1.932 1.44 3.383 3.562 3.383 2.123 0 3.562-1.454 3.562-3.383v-.46c0-4.562-5.183-2.87-5.183-5.704v-.488c0-.974.59-1.636 1.624-1.636 1.033 0 1.624.662 1.624 1.636l-.005.918zm-8.913 5.862c0 .925-.753 1.675-1.68 1.675-.928 0-1.68-.75-1.68-1.675v-9.619h-1.773v9.583c0 1.82 1.44 3.291 3.45 3.291 2.01 0 3.45-1.471 3.45-3.291v-9.583H70.17l.006 9.62zm46.645 8.43c2.123 0 3.506 1.491 3.506 3.367v1.142h-1.773v-1.178c.026-.635-.299-1.232-.846-1.557-.548-.325-1.23-.325-1.776 0-.548.325-.873.922-.847 1.557v6.551c-.026.634.3 1.232.847 1.557.547.324 1.228.324 1.776 0 .547-.325.872-.923.846-1.557v-1.195h1.764l.009 1.178c0 1.879-1.383 3.35-3.506 3.35-2.123 0-3.506-1.474-3.506-3.35v-6.498c0-1.876 1.383-3.367 3.506-3.367zm-59.26-.002c2.142 0 3.562 1.49 3.562 3.422v.681H59.35l-.003-.717c0-.986-.8-1.784-1.789-1.784-.988 0-1.79.798-1.79 1.784v6.445c0 .985.802 1.784 1.79 1.784s1.79-.799 1.79-1.784v-2.409h-1.79v-1.544h3.565v3.908c0 1.932-1.42 3.423-3.562 3.423S54 51.5 54 49.569v-6.364c0-1.932 1.42-3.422 3.562-3.422zm21.012.335v1.543h-4.502v3.975h3.814v1.544h-3.82v3.936l4.508.003v1.543h-6.272V40.118h6.272zm8.171 0v1.543h-4.5v3.975h3.814v1.544h-3.82v3.936l4.506.003v1.543h-6.272V40.118h6.272zm3.873 0l2.859 8.424h.073l-.02-8.424h1.773v12.541l-1.96.003-2.86-8.424h-.072l.02 8.424h-1.773V40.118h1.96zm33.53 0v5.535h3.08v-5.535H129v12.541h-1.773v-5.462h-3.08v5.465h-1.772V40.118h1.772zm-57.346-.014c.852-.022 1.678.296 2.295.882.616.587.972 1.395.99 2.244v1.85c-.007 1.265-.781 2.398-1.957 2.87l1.789 4.71h-1.918l-1.697-4.45h-1.198v4.438h-1.773V40.104zm32.362.01l1.12 8.654h.073l1.12-5.304h1.66l1.12 5.304h.073l1.12-8.653h1.79l-1.938 12.544h-1.792l-1.162-5.83h-.073l-1.162 5.83h-1.79l-1.937-12.544h1.778zm11.943.004v12.541h-1.784l.011-12.541h1.773zM66.802 41.66h-1.696v5.002l1.696.003c.413-.006.805-.178 1.09-.475.284-.298.436-.697.423-1.107v-1.84c.013-.41-.14-.81-.424-1.107-.284-.298-.676-.47-1.089-.476zM55.943 21.736l2.52 5.61 2.52-5.61h1.77v12.542h-1.77v-8.313h-.05l-1.66 3.956h-1.624l-1.67-3.967h-.036v8.327h-1.772V21.736h1.772zM66.562 3c2.103 0 3.598 1.488 3.598 3.475v6.273c0 1.987-1.495 3.458-3.598 3.458-2.103 0-3.599-1.47-3.599-3.458V6.475C62.963 4.491 64.46 3 66.562 3zm-8.922.33c.852-.022 1.678.295 2.294.882.617.587.973 1.394.99 2.244v1.84h.015c-.01 1.263-.784 2.396-1.96 2.869l1.789 4.71H58.85l-1.708-4.45h-1.199v4.45h-1.761V3.328zm15.415 0l1.846 5.15h.112l1.848-5.15h1.918l-2.935 7.137v5.407h-1.772v-5.407L71.137 3.33h1.918zm10.593 0l2.946 12.544h-1.809l-.453-1.954H80.99l-.46 1.954h-1.808L81.705 3.33h1.943zm6.55 0v11h4.17v1.544h-5.943V3.33h1.773zM67.534 4.715c-.59-.366-1.338-.366-1.928 0-.591.365-.923 1.033-.856 1.723v6.345c-.067.69.265 1.358.856 1.723.59.366 1.338.366 1.928 0 .591-.365.923-1.033.856-1.723V6.439c.067-.69-.265-1.358-.856-1.723zm15.17 1.687h-.072l-1.291 5.96h2.638l-1.274-5.96zM57.64 4.876h-1.697v5.002l1.697.003c.412-.007.805-.178 1.09-.476.283-.297.436-.696.422-1.107v-1.84c.014-.41-.139-.81-.423-1.107-.284-.297-.677-.469-1.089-.475zM24.376 24.46h18.532c-.671 10.126-8.597 18.205-18.532 18.898V24.46zm19.01-11.925C38.306 2.597 26.873-2.256 16.244 1.013 5.615 4.283-1.158 14.736.164 25.83c1.323 11.095 10.361 19.644 21.458 20.296V56h2.754v-9.874C36.516 45.404 45.994 35.3 46 23.076c0-.469-.042-.924-.07-1.384H21.622v21.666c-10.399-.724-18.603-9.515-18.603-20.28 0-11.24 8.946-20.34 19.98-20.34 7.78 0 14.488 4.546 17.785 11.156l2.602-1.359z"/></svg>
+</a>
+        <div class="search-flyout__buttons">
+          <a id="search-flyout__menu" class="button" href="#main-menu">Menu</a>
+
+          <button id="search-flyout__close">
+            <svg viewBox="0 0 12 12" height="12" width="12">
+              <path d="M1,1 L11,11 M1,11 L11,1"/>
+            </svg>
+            Close
+          </button>
+        </div>
+      </header>
+      <div class="search-flyout__content">
+        <form action="/search" class="search-flyout__form">
+          <label class="search-flyout__title" for="search-term">Search</label>
+          <input name="search-term" id="search-term" class="search-flyout__input" placeholder="e.g. the cutty sark"/>
+        </form>
+          <a href="/collections">Want to search our collection? Search here.</a>
+  
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="my-footer slice">
+  <div class="my-footer__top">
+    <div class="my-footer__first my-footer__menu">
+      <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer">
+      
+  <h2 id="block-footer-menu">Our Work and Services</h2>
+  
+
+        
+        <ul data-region="footer_first">
+            <li>
+        <a href="/about-us/what-we-do" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3567">What we do</a>
+              </li>
+          <li>
+        <a href="/venue-hire" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3722">Venue Hire &amp; Weddings</a>
+              </li>
+          <li>
+        <a href="/venue-hire/filming-photography" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3708">Filming &amp; Photography</a>
+              </li>
+          <li>
+        <a href="/about-us/brand-licensing" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3231">Brand Licensing</a>
+              </li>
+          <li>
+        <a href="/about-us/publishing" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3258">Publishing</a>
+              </li>
+          <li>
+        <a href="/about-us/image-library-licensing" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3568">Picture Library</a>
+              </li>
+          <li>
+        <a href="/about-us/news-press" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3198">News &amp; Press</a>
+              </li>
+          <li>
+        <a href="/about-us/jobs-volunteering" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3061">Jobs &amp; Volunteering</a>
+              </li>
+          <li>
+        <a href="/contact" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3209">Contact us</a>
+              </li>
+      </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+    <div class="my-footer__second my-footer__menu">
+      <nav role="navigation" aria-labelledby="block-footersecond-menu" id="block-footersecond">
+      
+  <h2 id="block-footersecond-menu">Visit &amp; Shop</h2>
+  
+
+        
+        <ul data-region="footer_second">
+            <li>
+        <a href="/whats-on" data-gtm-name="nav: footer" data-drupal-link-system-path="whats-on">Events &amp; Exhibitions</a>
+              </li>
+          <li>
+        <a href="https://shop.rmg.co.uk/" data-gtm-name="nav: footer">Shop</a>
+              </li>
+          <li>
+        <a href="https://prints.rmg.co.uk/" data-gtm-name="nav: footer">Prints</a>
+              </li>
+          <li>
+        <a href="/plan-your-visit/groups-travel-trade" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3575">Groups &amp; Travel Trade</a>
+              </li>
+          <li>
+        <a href="/membership" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3564">Become a member</a>
+              </li>
+          <li>
+        <a href="https://tickets.rmg.co.uk/webstore/landingPage?CG=memtik&amp;C=CSMEM" data-gtm-name="nav: footer">Members tickets</a>
+              </li>
+          <li>
+        <a href="https://donate.rmg.co.uk" data-gtm-name="nav: footer">Make a donation</a>
+              </li>
+          <li>
+        <a href="/plan-your-visit/visit-greenwich" data-gtm-name="nav: footer" data-drupal-link-system-path="node/28">Things to do in Greenwich</a>
+              </li>
+      </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+  </div>
+  <div class="my-footer__bottom">
+    <div class="my-footer__region-wrapper">
+      <div class="my-footer__social">
+        <a href="https://www.facebook.com/royalmuseumsgreenwich" data-gtm-name="nav: footer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <path d="M15.5 0C6.94 0 0 6.94 0 15.5 0 24.06 6.94 31 15.5 31 24.06 31 31 24.06 31 15.5 31 6.94 24.06 0 15.5 0zm3.875 10.333h-1.744c-.695 0-.84.286-.84 1.005v1.579h2.584l-.27 2.583h-2.313v9.042h-3.875V15.5h-2.584v-2.583h2.584V9.936c0-2.285 1.202-3.478 3.912-3.478h2.546v3.875z"/>
+</svg>
+        </a>
+        <a href="http://www.twitter.com/RMGreenwich" data-gtm-name="nav: footer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <path d="M15.5 0C6.94 0 0 6.94 0 15.5 0 24.06 6.94 31 15.5 31 24.06 31 31 24.06 31 15.5 31 6.94 24.06 0 15.5 0zm7.835 12.458c.237 5.218-3.655 11.036-10.545 11.036-2.095 0-4.044-.615-5.686-1.667 1.969.232 3.933-.316 5.492-1.536-1.622-.03-2.992-1.103-3.466-2.577.582.111 1.156.079 1.676-.063-1.784-.36-3.016-1.966-2.976-3.685.501.277 1.072.444 1.68.463-1.652-1.104-2.12-3.286-1.148-4.953 1.83 2.245 4.564 3.721 7.647 3.876-.541-2.32 1.22-4.556 3.615-4.556 1.066 0 2.03.451 2.708 1.172.844-.166 1.64-.476 2.356-.9-.278.866-.866 1.592-1.632 2.052.75-.09 1.466-.29 2.13-.585-.496.746-1.124 1.4-1.85 1.923z"/>
+</svg>
+        </a>
+        <a href="http://www.instagram.com/royalmuseumsgreenwich" data-gtm-name="nav: footer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <path d="M19.154 8.14c-.953-.044-1.24-.052-3.654-.052-2.414 0-2.7.01-3.653.052-2.453.112-3.595 1.274-3.707 3.707-.043.953-.053 1.239-.053 3.653 0 2.414.01 2.7.053 3.654.112 2.427 1.25 3.595 3.707 3.707.952.043 1.239.053 3.653.053 2.415 0 2.7-.009 3.654-.053 2.453-.11 3.594-1.276 3.707-3.707.043-.953.052-1.24.052-3.654 0-2.414-.01-2.7-.052-3.653-.113-2.432-1.257-3.595-3.707-3.707zM15.5 20.144c-2.564 0-4.644-2.079-4.644-4.644 0-2.564 2.08-4.642 4.644-4.642s4.644 2.078 4.644 4.642c0 2.564-2.08 4.644-4.644 4.644zm4.827-8.385c-.6 0-1.085-.485-1.085-1.085 0-.599.486-1.085 1.085-1.085.6 0 1.085.486 1.085 1.085 0 .598-.486 1.085-1.085 1.085zM18.513 15.5c0 1.665-1.35 3.013-3.013 3.013-1.664 0-3.013-1.348-3.013-3.013 0-1.665 1.35-3.013 3.013-3.013 1.664 0 3.013 1.348 3.013 3.013zM15.5 0C6.94 0 0 6.94 0 15.5 0 24.06 6.94 31 15.5 31 24.06 31 31 24.06 31 15.5 31 6.94 24.06 0 15.5 0zm8.987 19.228c-.148 3.287-1.978 5.108-5.258 5.26-.965.043-1.274.054-3.729.054s-2.763-.01-3.728-.055c-3.286-.15-5.108-1.975-5.26-5.26-.043-.963-.054-1.272-.054-3.727s.01-2.763.055-3.728c.15-3.286 1.975-5.108 5.26-5.258.964-.045 1.272-.056 3.727-.056s2.764.01 3.729.056c3.287.151 5.111 1.979 5.258 5.258.044.965.055 1.273.055 3.728s-.01 2.764-.055 3.728z"/>
+</svg>
+        </a>
+        <a href="http://www.youtube.com/user/RoyalMuseumsGrnwich" data-gtm-name="nav: footer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <path d="M15.5 0C6.94 0 0 6.94 0 15.5 0 24.06 6.94 31 15.5 31 24.06 31 31 24.06 31 15.5 31 6.94 24.06 0 15.5 0zm5.736 21.819c-2.715.186-8.762.186-11.474 0-2.94-.202-3.282-1.64-3.304-6.319.022-4.687.368-6.117 3.304-6.319 2.712-.186 8.76-.186 11.474 0 2.941.202 3.282 1.64 3.306 6.319-.024 4.687-.368 6.117-3.306 6.319zm-8.32-9.344l6.352 3.02-6.351 3.03v-6.05z"/>
+</svg>
+        </a>
+        <a href="https://www.weibo.com/u/7241857181" data-gtm-name="nav: footer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <path d="M15.5 0C24.06 0 31 6.94 31 15.5 31 24.06 24.06 31 15.5 31 6.94 31 0 24.06 0 15.5 0 6.94 6.94 0 15.5 0zm-1.826 9.522c-1.532-.03-3.844 1.183-5.905 3.208-2.05 2.053-3.248 4.205-3.248 6.058 0 3.602 4.596 5.754 9.142 5.754 5.895 0 9.84-3.402 9.84-6.105 0-1.652-1.398-2.554-2.648-2.954-.298-.1-.498-.15-.348-.55.098-.24.244-.696.244-1.301 0-.688-.477-1.284-1.432-1.39-.474-.052-2.387-.045-3.657.488 0 0-.7.302-.501-.249.35-1.1.3-2.002-.25-2.503-.299-.3-.724-.447-1.237-.456zm-.412 5.513c3.726 0 6.745 1.903 6.745 4.254 0 2.348-3.019 4.251-6.745 4.251-3.723 0-6.742-1.903-6.742-4.251 0-2.35 3.019-4.254 6.742-4.254zm-.5 1c-1.44.01-2.841.8-3.449 2.019-.75 1.548-.05 3.25 1.747 3.8 1.798.6 3.944-.301 4.694-1.95.747-1.6-.2-3.3-1.997-3.748-.329-.086-.662-.124-.994-.122zm-1.359 2.52c.157.001.314.026.46.076.64.204.836.81.443 1.317-.343.506-1.128.758-1.72.506-.587-.252-.734-.861-.391-1.315.257-.381.737-.59 1.208-.585zm2.104-.5c.276 0 .5.223.5.5 0 .276-.224.5-.5.5s-.5-.224-.5-.5c0-.277.224-.5.5-.5zm6.767-11.597c-.372 0-.73.038-1.074.1-.26.044-.433.293-.388.552.044.262.292.436.552.39.302-.053.604-.085.91-.085 2.905 0 5.25 2.35 5.25 5.26 0 .63-.115 1.232-.32 1.796-.064.162-.036.345.074.48.112.134.286.198.457.166.172-.032.312-.155.366-.32.24-.66.378-1.372.378-2.122 0-3.428-2.784-6.217-6.205-6.217zm0 2.87c-.204 0-.396.02-.578.052-.26.047-.435.293-.388.555.044.26.292.433.552.388.14-.024.277-.039.414-.039 1.323 0 2.386 1.065 2.386 2.391 0 .286-.052.559-.147.817-.09.248.04.523.287.613.248.09.522-.038.612-.286.128-.355.203-.74.203-1.144 0-1.843-1.501-3.347-3.341-3.347z"/>
+</svg>
+        </a>
+      </div>
+      <div class="my-footer__region">
+        <a href="https://landing.rmg.co.uk/newsletter/subscribe.html" class="button">Sign up to our newsletter</a>
+      </div>
+    </div>
+    <div class="my-footer__legal my-footer__menu">
+      <nav role="navigation" aria-labelledby="block-legal-menu" id="block-legal">
+            
+  <h2 class="visually-hidden" id="block-legal-menu">Legal</h2>
+  
+
+        
+        <ul data-region="footer_legal">
+            <li>
+        <a href="/terms-conditions" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3172">Terms &amp; Conditions</a>
+              </li>
+          <li>
+        <a href="/privacy" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3064">Privacy Notice</a>
+              </li>
+          <li>
+        <a href="/accessibility" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3065">Accessibility</a>
+              </li>
+          <li>
+        <a href="/cookies" data-gtm-name="nav: footer" data-drupal-link-system-path="node/3066">Cookies Policy</a>
+              </li>
+      </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+    <div class="my-footer__copyright">
+    </div>
+  </div>
+</footer>
+
+          <div class="cookie-banner visually-hidden" id="cookie-banner">
+  <div class="cookie-banner__row">
+    <div class="cookie-banner__contain slice__light">
+      <div class="cookie-banner__wrapper slice">
+        <div class="cookie-banner__content">
+          We use cookies to ensure you have the best browsing experience and to help us improve our website.
+                  </div>
+        <div class="cookie-banner__buttons-wrapper">
+          <div class="cookie-banner__buttons">
+            <a href="/cookies">Find out more</a>
+            <button class="cookie-banner__accept">Accept Cookies</button>
+          </div>
+        </div>
+      </div>
+      <div class="cookie-banner__close-wrapper">
+        <button class="cookie-banner__accept cookie-banner__close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+            <title>Close cookie banner</title>
+            <path d="M1 1L17 17M1 17L17, 1"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"media\/16819\/edit","currentPathIsAdmin":true,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"3e171e0f3fd6c3bfc0ad58ab492fcfe5fb5f569567529dacdc6f1bb0aab59b1a"}}</script>
+<script src="/sites/default/files/js/js_yBSEcfxIg8WYJ1l8eX8C7nbxfdudZXNgxrt_sMbRmR4.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-1e64a3d062546e2a03f","applicationID":"455895645","transactionName":"bgdRZkZZDRBZVxUIC1dNclFAUQwNF0QABgFmAVJRXF0=","queueTime":0,"applicationTime":26,"atts":"QkBSEA5DHh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
